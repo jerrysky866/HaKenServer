@@ -1,0 +1,70 @@
+[00:02:19]: [Join Announcement] 我愛糖豆人by諄
+[00:02:20]: [Join Announcement] Mayzchen
+[00:02:31]: [Join Announcement] kevin960917
+[00:04:17]: [Join Announcement] Yow-Yan
+[00:31:46]: [Skin Announcement] Yow-Yan feet_wx78_yule
+[00:35:53]: [Skin Announcement] kevin960917 legs_skirt_basic_tan_cream
+[00:54:12]: [Skin Announcement] Mayzchen feet_buckle_shoe_tan_clay
+[01:14:33]: [Skin Announcement] 我愛糖豆人by諄 legs_checkered_pleats_green_laurel
+[01:58:01]: [Say] (KU_1_oDY2UT) 我愛糖豆人by諄: 我離開遺下
+[01:58:16]: [Leave Announcement] 我愛糖豆人by諄
+[02:13:52]: [Skin Announcement] Yow-Yan emote_impatient
+[02:20:07]: [Skin Announcement] Mayzchen body_buttons_blue_sky
+[03:04:33]: [Death Announcement] kevin960917 死于： 树精守卫。他变成了可怕的鬼魂！
+[03:05:53]: [Join Announcement] 我愛糖豆人by諄
+[03:06:08]: [Resurrect Announcement] kevin960917 复活自： 绚丽之门.
+[03:08:06]: [Leave Announcement] 我愛糖豆人by諄
+[03:18:50]: [Skin Announcement] Yow-Yan feet_wes_clown
+[03:26:42]: [Skin Announcement] Mayzchen hand_beltedgloves_brown_beaver
+[03:30:51]: [Leave Announcement] kevin960917
+[03:59:29]: [Death Announcement] Mayzchen 死于： 龙蝇。他变成了可怕的鬼魂！
+[03:59:40]: [Death Announcement] Yow-Yan 死于： 龙蝇。他变成了可怕的鬼魂！
+[04:00:26]: [Join Announcement] 我愛糖豆人by諄
+[04:00:35]: [Leave Announcement] Yow-Yan
+[04:01:36]: [Leave Announcement] 我愛糖豆人by諄
+[04:01:41]: [Join Announcement] Yow-Yan
+[04:16:40]: [Leave Announcement] Mayzchen
+[04:17:07]: [Leave Announcement] Yow-Yan
+[04:17:18]: [Join Announcement] 我愛糖豆人by諄
+[04:19:33]: [Death Announcement] 我愛糖豆人by諄 死于： 冻伤。她变成了可怕的鬼魂！
+[04:19:54]: [Join Announcement] Yow-Yan
+[04:20:15]: [Join Announcement] Mayzchen
+[04:21:40]: [Leave Announcement] 我愛糖豆人by諄
+[04:29:29]: [Join Announcement] 我愛糖豆人by諄
+[04:29:32]: [Join Announcement] 吸巴怒罵
+[04:38:50]: [Death Announcement] 吸巴怒罵 死于： 龙蝇。他变成了可怕的鬼魂！
+[04:41:39]: [Resurrect Announcement] 吸巴怒罵 复活自： 恶作剧.
+[04:42:57]: [Skin Announcement] Yow-Yan feet_wathgrithr_nature
+[04:44:19]: [Death Announcement] Mayzchen 死于： 爬行恐惧。他变成了可怕的鬼魂！
+[04:44:33]: [Resurrect Announcement] Mayzchen 复活自： Yow-Yan.
+[04:48:19]: [Skin Announcement] 我愛糖豆人by諄 legs_wx78_yule
+[04:48:21]: [Death Announcement] Yow-Yan 死于： 企鸥。他变成了可怕的鬼魂！
+[04:48:58]: [Resurrect Announcement] Yow-Yan 复活自： 恶作剧.
+[04:57:45]: [Death Announcement] Mayzchen 死于： 海象。他变成了可怕的鬼魂！
+[04:58:24]: [Resurrect Announcement] Mayzchen 复活自： 恶作剧.
+[04:59:43]: [Join Announcement] kevin960917
+[05:00:05]: [Leave Announcement] Mayzchen
+[05:02:46]: [Say] (KU_Wwg8f3oG) kevin960917: ?
+[05:03:16]: [Say] (KU_Wwg8f3oG) kevin960917: fuck you
+[05:06:15]: [Say] (KU_Wwg8f3oG) kevin960917: i need
+[05:06:21]: [Say] (KU_1_oDY2UT) 我愛糖豆人by諄: 加速手杖
+[05:07:04]: [Say] (KU_1_oDY2UT) 我愛糖豆人by諄: 需要幫你生成嗎?
+[05:08:19]: [Say] (KU_1_oDY2UT) 我愛糖豆人by諄: 要去月島挖回來種植
+[05:09:18]: [Say] (KU_Wwg8f3oG) kevin960917: spring
+[05:10:51]: [Announcement] Server will shut down after five minutes
+[05:11:24]: [Announcement] Server will shut down after four minutes
+[05:11:43]: [Announcement] Server will shut down after three minutes
+[05:12:09]: [Announcement] fuck you
+[05:13:14]: [Announcement] Hi,Lstragedy
+[05:13:20]: [Say] (KU_Wwg8f3oG) kevin960917: ?
+[05:24:21]: [Join Announcement] Mayzchen
+[05:26:55]: [Skin Announcement] Mayzchen body_wes_clown
+[05:30:53]: [Say] (KU_Wwg8f3oG) kevin960917: sleep
+[05:30:57]: [Say] (KU_Wwg8f3oG) kevin960917: 88
+[05:31:06]: [Say] (KU_UnXy33nC) Mayzchen: 88
+[05:31:08]: [Leave Announcement] kevin960917
+[05:35:54]: [Say] (KU_1_oDY2UT) 我愛糖豆人by諄: 等他乾
+[05:40:05]: [Leave Announcement] Yow-Yan
+[05:40:05]: [Leave Announcement] Mayzchen
+[05:40:13]: [Leave Announcement] 吸巴怒罵
+[05:40:13]: [Leave Announcement] 我愛糖豆人by諄

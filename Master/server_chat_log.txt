@@ -1,0 +1,5 @@
+[00:01:34]: [Join Announcement] 我愛糖豆人by諄
+[00:02:24]: [Join Announcement] Yow-Yan
+[00:07:00]: [Leave Announcement] 我愛糖豆人by諄
+[00:13:16]: [Skin Announcement] Yow-Yan hand_shortgloves_white_smoke
+[00:21:58]: [Leave Announcement] Yow-Yan

@@ -1,0 +1,2574 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 35%
+	Available Physical Memory: 10518m/16338m
+	Available Page File: 10198m/18898m
+	Available Virtual Memory: 4004m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 12m
+	Working Set Size: 11m
+	Quota Peak Page Pool Usage: 172k
+	Quota Page Pool Usage: 169k
+	Quota Peak Non Paged Pool Usage:16k
+	Quota Non Paged Pool Usage: 15k
+	Page File Usage: 3m
+	Peak Page File Usage: 3m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/HaKenServer/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 436739
+[00:00:00]: Current time: Sat Oct 24 20:28:21 2020
+
+[00:00:00]: Don't Starve Together: 436739 WIN32
+[00:00:00]: Build Date: 5689
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -console -cluster HaKenServer -shard Caves 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (16020)
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: ProfileIndex:2.81
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: THREAD - started 'Ping Job Thread' (4780)
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Authorized application D:\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is enabled in the firewall.
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/HaKenServer/blocklist.txt (Failure)
+[00:00:01]: THREAD - started 'StreamInput' (14536)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/HaKenServer/adminlist.txt (Success)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/HaKenServer/whitelist.txt (Failure)
+[00:00:01]: Token retrieved from: APP:Klei//DoNotStarveTogether/HaKenServer/cluster_token.txt
+[00:00:01]: Token retrieved from: APP:Klei//DoNotStarveTogether/HaKenServer/cluster_token.txt
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 家用版
+    version                   10.0.18362
+    architecture              64 位元
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  6
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+    manufacturer              GenuineIntel
+    clockSpeed                3696
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      NVIDIA GeForce GTX 1060 6GB
+    driverDate                20200621000000.000000-000
+    megsOfRam                 4095
+    refreshRate               60
+    videoModeDescription      1920 x 1080 x 4294967296 色彩
+    driverVersion             27.21.14.5148
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:02]:   taskgrouplist:	default	联机版	
+[00:00:02]:   taskgrouplist:	classic	经典	
+[00:00:02]:   taskgrouplist:	cave_default	地下	
+[00:00:02]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:02]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:02]: running main.lua
+	
+[00:00:02]: loaded modindex	
+[00:00:02]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:02]: DownloadMods(0)
+[00:00:02]: SUCCESS: Loaded modoverrides.lua	
+[00:00:02]: modoverrides.lua enabling workshop-362175979	
+[00:00:02]: modoverrides.lua enabling workshop-378160973	
+[00:00:02]: modoverrides.lua enabling workshop-347079953	
+[00:00:02]: modoverrides.lua enabling workshop-375850593	
+[00:00:02]: modoverrides.lua enabling workshop-2208128427	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2208128427	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-2208128427_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[00:00:02]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:02]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:02]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:02]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[00:00:02]: Loading mod: workshop-2208128427 (Loot Pump) Version:1.07	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-347079953_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[00:00:02]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:02]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:02]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:02]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[00:00:02]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-362175979_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[00:00:02]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:02]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:02]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:02]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[00:00:02]: Loading mod: workshop-362175979 (Wormhole Marks) Version:1.4.5	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-375850593_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[00:00:02]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:02]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:02]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:02]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[00:00:02]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[00:00:02]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:02]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:02]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:02]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[00:00:02]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[00:00:02]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
+[00:00:02]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-362175979 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-362175979 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-362175979 (Wormhole Marks)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-2208128427 (Loot Pump)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-2208128427 (Loot Pump)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-2208128427 (Loot Pump)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2208128427	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:03]: Registering Server mod namespace "workshop-378160973"
+[00:00:03]: Registering Server mod namespace "food item"
+[00:00:03]: PlayerDeaths could not load morgue	
+[00:00:03]: PlayerHistory could not load player_history	
+[00:00:03]: ServerPreferences could not load server_preferences	
+[00:00:03]: bloom_enabled	false	
+[00:00:03]: OnFilesLoaded()	
+[00:00:03]: OnUpdatePurchaseStateComplete	
+[00:00:03]: Klump load on boot started.	
+[00:00:03]: Klump files loaded: 	0	
+[00:00:04]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:00:04]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:04]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-362175979 (Wormhole Marks)	Registering prefabs	
+[00:00:04]: Mod: workshop-362175979 (Wormhole Marks)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-2208128427 (Loot Pump)	Registering prefabs	
+[00:00:04]: Mod: workshop-2208128427 (Loot Pump)	  Registering prefab file: prefabs/loot_pump	
+[00:00:04]: Mod: workshop-2208128427 (Loot Pump)	    loot_pump	
+[00:00:04]: Mod: workshop-2208128427 (Loot Pump)	    loot_pump_placer	
+[00:00:04]: Mod: workshop-2208128427 (Loot Pump)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:05]: 	Load FE	
+[00:00:05]: 	Load FE: done	
+[00:00:05]: THREAD - started 'FilesExistAsyncThread' (8356)
+[00:00:05]: FilesExistAsyncThread started (16870 files)...
+[00:00:05]: Check for write access: TRUE
+[00:00:05]: Check for read access: TRUE
+[00:00:05]: Available disk space for save files: 10832 MB
+[00:00:05]: ModIndex: Load sequence finished successfully.	
+[00:00:05]: Reset() returning
+[00:00:06]: ... FilesExistAsyncThread complete
+[00:00:06]: [200] Account Communication Success (6)
+[00:00:06]: Received (KU_1_oDY2UT) from TokenPurpose
+[00:00:06]: Starting Dedicated Server Game	
+[00:00:06]: Network tick rate: U=15(2), D=0
+[00:00:06]: About to start a server with the following settings:
+[00:00:06]:   Dedicated: true
+[00:00:06]:   Online: true
+[00:00:06]:   Passworded: true
+[00:00:06]:   ServerPort: 10998
+[00:00:06]:   SteamAuthPort: 8767
+[00:00:06]:   SteamMasterServerPort: 27017
+[00:00:06]:   ClanID: false
+[00:00:06]:   ClanOnly: false
+[00:00:06]:   ClanAdmin: false
+[00:00:06]:   LanOnly: false
+[00:00:06]:   FriendsOnly: false
+[00:00:06]:   EnableAutosaver: true
+[00:00:06]:   EncodeUserPath: true
+[00:00:06]:   PVP: false
+[00:00:06]:   MaxPlayers: 6
+[00:00:06]:   GameMode: endless
+[00:00:06]:   OverridenDNS: 
+[00:00:06]:   PauseWhenEmpty: true
+[00:00:06]:   IdleTimeout: 1800s
+[00:00:06]:   VoteEnabled: true
+[00:00:06]:   InternetBroadcasting: true
+[00:00:06]:   Intent: cooperative
+[00:00:06]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-362175979	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-2208128427	
+[00:00:06]: Online Server Started on port: 10998
+[00:00:06]: SUCCESS: Loaded modoverrides.lua	
+[00:00:06]: Found a level data override file with these contents:	
+[00:00:06]: 	K: 	background_node_range	 V: 	table: 0816FC00	
+[00:00:06]: 		K: 	1	 V: 	0	
+[00:00:06]: 		K: 	2	 V: 	1	
+[00:00:06]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:06]: 	K: 	hideminimap	 V: 	false	
+[00:00:06]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:06]: 	K: 	location	 V: 	cave	
+[00:00:06]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:06]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:06]: 	K: 	name	 V: 	洞穴	
+[00:00:06]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:06]: 	K: 	override_level_string	 V: 	false	
+[00:00:06]: 	K: 	overrides	 V: 	table: 0816FB88	
+[00:00:06]: 		K: 	banana	 V: 	default	
+[00:00:06]: 		K: 	bats	 V: 	default	
+[00:00:06]: 		K: 	berrybush	 V: 	default	
+[00:00:06]: 		K: 	boons	 V: 	default	
+[00:00:06]: 		K: 	branching	 V: 	default	
+[00:00:06]: 		K: 	bunnymen	 V: 	default	
+[00:00:06]: 		K: 	cave_ponds	 V: 	default	
+[00:00:06]: 		K: 	cave_spiders	 V: 	default	
+[00:00:06]: 		K: 	cavelight	 V: 	default	
+[00:00:06]: 		K: 	chess	 V: 	default	
+[00:00:06]: 		K: 	disease_delay	 V: 	default	
+[00:00:06]: 		K: 	earthquakes	 V: 	default	
+[00:00:06]: 		K: 	fern	 V: 	default	
+[00:00:06]: 		K: 	fissure	 V: 	default	
+[00:00:06]: 		K: 	flint	 V: 	default	
+[00:00:06]: 		K: 	flower_cave	 V: 	default	
+[00:00:06]: 		K: 	grass	 V: 	default	
+[00:00:06]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:06]: 		K: 	lichen	 V: 	default	
+[00:00:06]: 		K: 	liefs	 V: 	default	
+[00:00:06]: 		K: 	loop	 V: 	default	
+[00:00:06]: 		K: 	marshbush	 V: 	default	
+[00:00:06]: 		K: 	monkey	 V: 	default	
+[00:00:06]: 		K: 	mushroom	 V: 	default	
+[00:00:06]: 		K: 	mushtree	 V: 	default	
+[00:00:06]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:06]: 		K: 	reeds	 V: 	default	
+[00:00:06]: 		K: 	regrowth	 V: 	default	
+[00:00:06]: 		K: 	roads	 V: 	never	
+[00:00:06]: 		K: 	rock	 V: 	default	
+[00:00:06]: 		K: 	rocky	 V: 	default	
+[00:00:06]: 		K: 	sapling	 V: 	default	
+[00:00:06]: 		K: 	season_start	 V: 	default	
+[00:00:06]: 		K: 	slurper	 V: 	default	
+[00:00:06]: 		K: 	slurtles	 V: 	default	
+[00:00:06]: 		K: 	start_location	 V: 	caves	
+[00:00:06]: 		K: 	task_set	 V: 	cave_default	
+[00:00:06]: 		K: 	tentacles	 V: 	default	
+[00:00:06]: 		K: 	touchstone	 V: 	default	
+[00:00:06]: 		K: 	trees	 V: 	default	
+[00:00:06]: 		K: 	weather	 V: 	default	
+[00:00:06]: 		K: 	world_size	 V: 	default	
+[00:00:06]: 		K: 	wormattacks	 V: 	default	
+[00:00:06]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:06]: 		K: 	wormlights	 V: 	default	
+[00:00:06]: 		K: 	worms	 V: 	default	
+[00:00:06]: 	K: 	required_prefabs	 V: 	table: 0816FC28	
+[00:00:06]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:06]: 	K: 	substitutes	 V: 	table: 0816FCC8	
+[00:00:06]: 	K: 	version	 V: 	4	
+[00:00:06]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:06]: Overwriting savedata with level data file.	
+[00:00:06]: Not applying world gen overrides.	
+[00:00:06]: Collecting garbage...
+[00:00:06]: lua_gc took 0.02 seconds
+[00:00:06]: ~ShardLuaProxy()
+[00:00:06]: ~cEventLeaderboardProxy()
+[00:00:06]: ~ItemServerLuaProxy()
+[00:00:06]: ~InventoryLuaProxy()
+[00:00:06]: ~NetworkLuaProxy()
+[00:00:06]: ~SimLuaProxy()
+[00:00:06]: lua_close took 0.05 seconds
+[00:00:06]: ReleaseAll
+[00:00:06]: ReleaseAll Finished
+[00:00:06]: cGame::StartPlaying
+[00:00:06]: LOADING LUA
+[00:00:06]: DoLuaFile scripts/main.lua
+[00:00:06]: DoLuaFile loading buffer scripts/main.lua
+[00:00:07]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:08]:   taskgrouplist:	default	联机版	
+[00:00:08]:   taskgrouplist:	classic	经典	
+[00:00:08]:   taskgrouplist:	cave_default	地下	
+[00:00:08]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:08]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:08]: running main.lua
+	
+[00:00:08]: unloading prefabs for mod MOD_workshop-375850593	
+[00:00:08]: unloading prefabs for mod MOD_workshop-347079953	
+[00:00:08]: unloading prefabs for mod MOD_workshop-362175979	
+[00:00:08]: unloading prefabs for mod MOD_workshop-2208128427	
+[00:00:08]: unloading prefabs for mod MOD_workshop-378160973	
+[00:00:08]: loaded modindex	
+[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:08]: SUCCESS: Loaded modoverrides.lua	
+[00:00:08]: modoverrides.lua enabling workshop-362175979	
+[00:00:08]: modoverrides.lua enabling workshop-378160973	
+[00:00:08]: modoverrides.lua enabling workshop-347079953	
+[00:00:08]: modoverrides.lua enabling workshop-375850593	
+[00:00:08]: modoverrides.lua enabling workshop-2208128427	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2208128427	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-2208128427	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[00:00:08]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:08]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[00:00:08]: Loading mod: workshop-2208128427 (Loot Pump) Version:1.07	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[00:00:08]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:08]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[00:00:08]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-362175979	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[00:00:08]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:08]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[00:00:08]: Loading mod: workshop-362175979 (Wormhole Marks) Version:1.4.5	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[00:00:08]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:08]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[00:00:08]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[00:00:08]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:08]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[00:00:08]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[00:00:08]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
+[00:00:08]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-362175979 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-362175979 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-362175979 (Wormhole Marks)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-2208128427 (Loot Pump)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-2208128427 (Loot Pump)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-2208128427 (Loot Pump)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2208128427	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:08]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:08]: LOADING LUA SUCCESS
+[00:00:08]: Registering Server mod namespace "workshop-378160973"
+[00:00:08]: Registering Server mod namespace "food item"
+[00:00:08]: PlayerDeaths could not load morgue	
+[00:00:08]: PlayerHistory could not load player_history	
+[00:00:08]: ServerPreferences could not load server_preferences	
+[00:00:08]: bloom_enabled	false	
+[00:00:08]: OnFilesLoaded()	
+[00:00:08]: OnUpdatePurchaseStateComplete	
+[00:00:08]: Loading world: session/47C57D51E8D753D0/0000000003	
+[00:00:08]: Save file is at version 5.063	
+[00:00:08]: Klump load on boot started.	
+[00:00:08]: Klump files loaded: 	0	
+[00:00:09]: 	Unload FE	
+[00:00:09]: 	Unload FE done	
+[00:00:10]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:00:10]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:10]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-362175979 (Wormhole Marks)	Registering prefabs	
+[00:00:10]: Mod: workshop-362175979 (Wormhole Marks)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-2208128427 (Loot Pump)	Registering prefabs	
+[00:00:10]: Mod: workshop-2208128427 (Loot Pump)	  Registering prefab file: prefabs/loot_pump	
+[00:00:10]: Mod: workshop-2208128427 (Loot Pump)	    loot_pump	
+[00:00:10]: Mod: workshop-2208128427 (Loot Pump)	    loot_pump_placer	
+[00:00:10]: Mod: workshop-2208128427 (Loot Pump)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:10]: 	LOAD BE	
+[00:00:12]: Could not preload undefined prefab (brokenwall_stone_2)
+[00:00:12]: Could not preload undefined prefab (brokenwall_ruins_2)
+[00:00:12]: 	LOAD BE: done	
+[00:00:12]: Begin Session: 47C57D51E8D753D0
+[00:00:12]: saving to server_temp/server_save	
+[00:00:12]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_1.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_2.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_3.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_4.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_5.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_6.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_7.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_8.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_9.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_10.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_11.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_12.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_13.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_14.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_15.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_16.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_17.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_18.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_19.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_20.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_21.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_22.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-2208128427/minimap/loot_pump.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:12]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:13]: Loading 17 new character(s)	
+[00:00:13]: Total 17 character(s) loaded	
+[00:00:16]: Loading Nav Grid	
+[00:00:16]: World generated on build 436739 with save version: 5.063, using seed: 1603542103	
+[00:00:16]: setting 	summerlength	15	
+[00:00:16]: setting 	iscavefullmoon	false	
+[00:00:16]: setting 	isnightmaredawn	false	
+[00:00:16]: setting 	elapseddaysinseason	0	
+[00:00:16]: setting 	isfullmoon	false	
+[00:00:16]: setting 	moisture	2.024998664856	
+[00:00:16]: setting 	cavephase	day	
+[00:00:16]: setting 	iscavewaxingmoon	true	
+[00:00:16]: setting 	isnightmarewild	false	
+[00:00:16]: setting 	nightmaretimeinphase	0.022494506835937	
+[00:00:16]: setting 	precipitationrate	0	
+[00:00:16]: setting 	iswet	false	
+[00:00:16]: setting 	winterlength	15	
+[00:00:16]: setting 	iswinter	false	
+[00:00:16]: setting 	israining	false	
+[00:00:16]: setting 	isnightmarewarn	false	
+[00:00:16]: setting 	isnewmoon	false	
+[00:00:16]: setting 	precipitation	none	
+[00:00:16]: setting 	issummer	false	
+[00:00:16]: setting 	springlength	20	
+[00:00:16]: setting 	moistureceil	648.11059570313	
+[00:00:16]: setting 	isday	false	
+[00:00:16]: setting 	iscaveday	true	
+[00:00:16]: setting 	wetness	0	
+[00:00:16]: setting 	temperature	19.18746733462	
+[00:00:16]: setting 	isspring	false	
+[00:00:16]: setting 	isnightmarecalm	true	
+[00:00:16]: setting 	time	0.0023616154988607	
+[00:00:16]: setting 	isdusk	false	
+[00:00:16]: setting 	iscavedusk	false	
+[00:00:16]: setting 	isautumn	true	
+[00:00:16]: setting 	issnowing	false	
+[00:00:16]: setting 	iswaxingmoon	true	
+[00:00:16]: setting 	phase	night	
+[00:00:16]: setting 	snowlevel	0	
+[00:00:16]: setting 	issnowcovered	false	
+[00:00:16]: setting 	autumnlength	20	
+[00:00:16]: setting 	pop	0.0031244646797651	
+[00:00:16]: setting 	nightmaretime	8.0980224609375	
+[00:00:16]: setting 	remainingdaysinseason	20	
+[00:00:16]: setting 	isnight	true	
+[00:00:16]: setting 	nightmarephase	calm	
+[00:00:16]: setting 	cycles	0	
+[00:00:16]: setting 	timeinphase	0.0047232309977213	
+[00:00:16]: setting 	iscavenight	false	
+[00:00:16]: setting 	iscavenewmoon	false	
+[00:00:16]: setting 	season	autumn	
+[00:00:16]: setting 	cavemoonphase	new	
+[00:00:16]: setting 	moonphase	new	
+[00:00:16]: [Shard] Secondary shard is waiting for LUA...
+[00:00:18]: SWITCHING 	false	
+[00:00:18]: Reconstructing topology	
+[00:00:18]: 	...Sorting points	
+[00:00:18]: 	...Sorting edges	
+[00:00:18]: 	...Connecting nodes	
+[00:00:18]: 	...Validating connections	
+[00:00:18]: 	...Housekeeping	
+[00:00:18]: 	...Done!	
+[00:00:18]: 1 uploads added to server. From server_temp
+[00:00:18]: About to start a shard with these settings:
+[00:00:18]:   ShardName: Caves
+[00:00:18]:   ShardID: 629333042
+[00:00:18]:   ShardRole: SECONDARY
+[00:00:18]:   MasterHost: 127.0.0.1
+[00:00:18]:   MasterBind: (null)
+[00:00:18]:   MasterPort: 10888
+[00:00:18]: [Shard] Connecting to master...
+[00:00:18]: Telling Client our new session identifier: 47C57D51E8D753D0
+[00:00:18]: Check for write access: TRUE
+[00:00:18]: Check for read access: TRUE
+[00:00:18]: Available disk space for save files: 10831 MB
+[00:00:18]: ModIndex: Load sequence finished successfully.	
+[00:00:18]: Reset() returning
+[00:00:18]: [Steam] SteamGameServer_Init(8767, 10998, 27017)
+[00:00:18]: [Steam] SteamGameServer_Init success
+[00:00:18]: [Shard] Sending secondary shard information to master...
+[00:00:18]: Validating portal[7] <-> 1[7] (inactive)	
+[00:00:18]: Validating portal[1] <-> 1[1] (inactive)	
+[00:00:18]: Validating portal[10] <-> 1[10] (inactive)	
+[00:00:18]: Validating portal[6] <-> 1[6] (inactive)	
+[00:00:18]: Validating portal[2] <-> 1[2] (inactive)	
+[00:00:18]: Validating portal[8] <-> 1[8] (inactive)	
+[00:00:18]: Validating portal[3] <-> 1[3] (inactive)	
+[00:00:18]: Validating portal[9] <-> 1[9] (inactive)	
+[00:00:18]: Validating portal[4] <-> 1[4] (inactive)	
+[00:00:18]: Validating portal[5] <-> 1[5] (inactive)	
+[00:00:19]: Gameserver logged on to Steam, assigned identity steamid:90139739338789892
+[00:00:39]: Overriding region to US
+[00:00:39]: Registering secondary shard in US lobby
+[00:00:40]: [Shard] secondary shard is now ready!
+[00:00:40]: World 1 is now connected	
+[00:00:40]: Validating portal[7] <-> 1[7] (active)	
+[00:00:40]: Validating portal[1] <-> 1[1] (active)	
+[00:00:40]: Validating portal[10] <-> 1[10] (active)	
+[00:00:40]: Validating portal[6] <-> 1[6] (active)	
+[00:00:40]: Validating portal[2] <-> 1[2] (active)	
+[00:00:40]: Validating portal[8] <-> 1[8] (active)	
+[00:00:40]: Validating portal[3] <-> 1[3] (active)	
+[00:00:40]: Validating portal[9] <-> 1[9] (active)	
+[00:00:40]: Validating portal[4] <-> 1[4] (active)	
+[00:00:40]: Validating portal[5] <-> 1[5] (active)	
+[00:00:41]: [Shard] secondary shard LUA is now ready!
+[00:00:41]: Sim paused
+[00:05:32]: Sim unpaused
+[00:05:39]: Registering secondary shard in US lobby
+[00:10:39]: Registering secondary shard in US lobby
+[00:13:33]: Available disk space for save files: 10804 MB
+[00:13:33]: Serializing world: session/47C57D51E8D753D0/0000000004
+[00:15:39]: Registering secondary shard in US lobby
+[00:16:45]: CURL ERROR: (api.steampowered.com) Operation too slow. Less than 5 bytes/sec transferred the last 30 seconds
+[00:16:45]: Failed VersionCheckFileDetailsResponse
+[00:16:45]: Failure error code received: 0
+[00:16:45]: With Body: 
+[00:20:39]: Registering secondary shard in US lobby
+[00:21:33]: Available disk space for save files: 10934 MB
+[00:21:33]: Serializing world: session/47C57D51E8D753D0/0000000005
+[00:25:39]: Registering secondary shard in US lobby
+[00:29:33]: Available disk space for save files: 10936 MB
+[00:29:34]: Serializing world: session/47C57D51E8D753D0/0000000006
+[00:30:06]: [200] Account Communication Success (6)
+[00:30:06]: Received (KU_1_oDY2UT) from TokenPurpose
+[00:30:39]: Registering secondary shard in US lobby
+[00:35:39]: Registering secondary shard in US lobby
+[00:37:33]: Available disk space for save files: 10931 MB
+[00:37:34]: Serializing world: session/47C57D51E8D753D0/0000000007
+[00:40:39]: Registering secondary shard in US lobby
+[00:45:34]: Available disk space for save files: 10925 MB
+[00:45:34]: Serializing world: session/47C57D51E8D753D0/0000000008
+[00:45:34]: Truncating to snapshot #8...
+[00:45:34]:  - session/47C57D51E8D753D0/0000000002
+[00:45:34]:    1 file(s) removed
+[00:45:39]: Registering secondary shard in US lobby
+[00:50:39]: Registering secondary shard in US lobby
+[00:53:34]: Available disk space for save files: 10921 MB
+[00:53:34]: Serializing world: session/47C57D51E8D753D0/0000000009
+[00:53:34]: Truncating to snapshot #9...
+[00:53:34]:  - session/47C57D51E8D753D0/0000000003
+[00:53:34]:    1 file(s) removed
+[00:55:39]: Registering secondary shard in US lobby
+[01:00:06]: [200] Account Communication Success (6)
+[01:00:06]: Received (KU_1_oDY2UT) from TokenPurpose
+[01:00:39]: Registering secondary shard in US lobby
+[01:01:34]: Available disk space for save files: 10908 MB
+[01:01:34]: Serializing world: session/47C57D51E8D753D0/0000000010
+[01:01:34]: Truncating to snapshot #10...
+[01:01:34]:  - session/47C57D51E8D753D0/0000000004
+[01:01:34]:    1 file(s) removed
+[01:05:39]: Registering secondary shard in US lobby
+[01:06:44]: CURL ERROR: (api.steampowered.com) Operation too slow. Less than 5 bytes/sec transferred the last 30 seconds
+[01:06:44]: Failed VersionCheckFileDetailsResponse
+[01:06:44]: Failure error code received: 0
+[01:06:44]: With Body: 
+[01:09:34]: Available disk space for save files: 10900 MB
+[01:09:35]: Serializing world: session/47C57D51E8D753D0/0000000011
+[01:09:35]: Truncating to snapshot #11...
+[01:09:35]:  - session/47C57D51E8D753D0/0000000005
+[01:09:35]:    1 file(s) removed
+[01:10:39]: Registering secondary shard in US lobby
+[01:15:39]: Registering secondary shard in US lobby
+[01:17:34]: Available disk space for save files: 10890 MB
+[01:17:35]: Serializing world: session/47C57D51E8D753D0/0000000012
+[01:17:35]: Truncating to snapshot #12...
+[01:17:35]:  - session/47C57D51E8D753D0/0000000006
+[01:17:35]:    1 file(s) removed
+[01:20:39]: Registering secondary shard in US lobby
+[01:25:35]: Available disk space for save files: 10887 MB
+[01:25:35]: Serializing world: session/47C57D51E8D753D0/0000000013
+[01:25:35]: Truncating to snapshot #13...
+[01:25:35]:  - session/47C57D51E8D753D0/0000000007
+[01:25:35]:    1 file(s) removed
+[01:25:39]: Registering secondary shard in US lobby
+[01:28:44]: CURL ERROR: (api.steampowered.com) Operation too slow. Less than 5 bytes/sec transferred the last 30 seconds
+[01:28:44]: Failed VersionCheckFileDetailsResponse
+[01:28:44]: Failure error code received: 0
+[01:28:44]: With Body: 
+[01:30:06]: [200] Account Communication Success (6)
+[01:30:06]: Received (KU_1_oDY2UT) from TokenPurpose
+[01:30:39]: Registering secondary shard in US lobby
+[01:33:35]: Available disk space for save files: 10884 MB
+[01:33:35]: Serializing world: session/47C57D51E8D753D0/0000000014
+[01:33:35]: Truncating to snapshot #14...
+[01:33:35]:  - session/47C57D51E8D753D0/0000000008
+[01:33:35]:    1 file(s) removed
+[01:35:39]: Registering secondary shard in US lobby
+[01:38:44]: CURL ERROR: (api.steampowered.com) Operation too slow. Less than 5 bytes/sec transferred the last 30 seconds
+[01:38:44]: Failed VersionCheckFileDetailsResponse
+[01:38:44]: Failure error code received: 0
+[01:38:44]: With Body: 
+[01:40:39]: Registering secondary shard in US lobby
+[01:41:35]: Available disk space for save files: 10877 MB
+[01:41:35]: Serializing world: session/47C57D51E8D753D0/0000000015
+[01:41:35]: Truncating to snapshot #15...
+[01:41:35]:  - session/47C57D51E8D753D0/0000000009
+[01:41:35]:    1 file(s) removed
+[01:45:39]: Registering secondary shard in US lobby
+[01:49:35]: Available disk space for save files: 10846 MB
+[01:49:36]: Serializing world: session/47C57D51E8D753D0/0000000016
+[01:49:36]: Truncating to snapshot #16...
+[01:49:36]:  - session/47C57D51E8D753D0/0000000010
+[01:49:36]:    1 file(s) removed
+[01:50:39]: Registering secondary shard in US lobby
+[01:55:19]: Available disk space for save files: 10830 MB
+[01:55:19]: Serializing world: session/47C57D51E8D753D0/0000000017
+[01:55:19]: Truncating to snapshot #17...
+[01:55:19]:  - session/47C57D51E8D753D0/0000000011
+[01:55:19]:    1 file(s) removed
+[01:55:39]: Registering secondary shard in US lobby
+[01:57:36]: Available disk space for save files: 10825 MB
+[01:57:36]: Serializing world: session/47C57D51E8D753D0/0000000018
+[01:57:36]: Truncating to snapshot #18...
+[01:57:36]:  - session/47C57D51E8D753D0/0000000012
+[01:57:36]:    1 file(s) removed
+[02:00:06]: [200] Account Communication Success (6)
+[02:00:06]: Received (KU_1_oDY2UT) from TokenPurpose
+[02:00:39]: Registering secondary shard in US lobby
+[02:05:36]: Available disk space for save files: 10769 MB
+[02:05:36]: Serializing world: session/47C57D51E8D753D0/0000000019
+[02:05:36]: Truncating to snapshot #19...
+[02:05:36]:  - session/47C57D51E8D753D0/0000000013
+[02:05:36]:    1 file(s) removed
+[02:05:39]: Registering secondary shard in US lobby
+[02:10:39]: Registering secondary shard in US lobby
+[02:13:36]: Available disk space for save files: 10711 MB
+[02:13:37]: Serializing world: session/47C57D51E8D753D0/0000000020
+[02:13:37]: Truncating to snapshot #20...
+[02:13:37]:  - session/47C57D51E8D753D0/0000000014
+[02:13:37]:    1 file(s) removed
+[02:15:39]: Registering secondary shard in US lobby
+[02:18:44]: CURL ERROR: (api.steampowered.com) Operation too slow. Less than 5 bytes/sec transferred the last 30 seconds
+[02:18:44]: Failed VersionCheckFileDetailsResponse
+[02:18:44]: Failure error code received: 0
+[02:18:44]: With Body: 
+[02:20:39]: Registering secondary shard in US lobby
+[02:21:37]: Available disk space for save files: 10705 MB
+[02:21:37]: Serializing world: session/47C57D51E8D753D0/0000000021
+[02:21:37]: Truncating to snapshot #21...
+[02:21:37]:  - session/47C57D51E8D753D0/0000000015
+[02:21:37]:    1 file(s) removed
+[02:23:03]: [Shard] #1 -> session/47C57D51E8D753D0/A7JR31U0OF2C/0000000022
+[02:23:03]: [Shard] Received migration #1 data for (KU_UnXy33nC)
+[02:23:09]: [P2P] Session request for '76561198138510026'
+[02:23:13]: [P2P] Create session: 188.35.23.61|1 '76561198138510026'
+[02:23:13]: [P2P] Received from 188.35.23.61|1 '76561198138510026'
+[02:23:13]: [P2P] Sent to 188.35.23.61|1 '76561198138510026'
+[02:23:15]: New incoming connection 188.35.23.61|1 <5059274232301529867>
+[02:23:15]: Client connected from 188.35.23.61|1 <5059274232301529867>
+[02:23:15]: ValidateGameSessionToken pgs-usc^KU_UnXy33nC^DontStarveTogether^Zu1bmI0UsYmwk/nMgg2ZKbeIbanaSnc55xO0n74GREw= for <5059274232301529867>
+[02:23:16]: Client authenticated: (KU_UnXy33nC) Mayzchen
+[02:23:16]: [Steam] SendUserConnectAndAuthenticate for '76561198138510026'
+[02:23:17]: [Steam] Authenticated client '76561198138510026'
+[02:23:17]: [Shard] Completed incoming migration #1 for (KU_UnXy33nC)
+[02:23:33]: Resuming user: session/47C57D51E8D753D0/A7JR31U0OF2C/0000000022
+[02:23:33]: Could not find anim build FROMNUM
+[02:23:33]: Player will spawn close to portal #8	
+[02:23:33]: Spawning player at: [Load] (656.94, 0.00, 78.34)	
+[02:25:39]: Registering secondary shard in US lobby
+[02:29:37]: Available disk space for save files: 10702 MB
+[02:29:37]: Serializing user: session/47C57D51E8D753D0/A7JR31U0OF2C/0000000022
+[02:29:37]: Serializing world: session/47C57D51E8D753D0/0000000022
+[02:30:06]: [200] Account Communication Success (6)
+[02:30:06]: Received (KU_1_oDY2UT) from TokenPurpose
+[02:30:20]: Activating portal[2] to 1	
+[02:30:20]: Serializing user: session/47C57D51E8D753D0/A7JR31U0OF2C/0000000023
+[02:30:20]: [Shard] Migration request: (KU_UnXy33nC) to [SHDMASTER](1)
+[02:30:20]: [Shard] #2 <- session/47C57D51E8D753D0/A7JR31U0OF2C/0000000023
+[02:30:20]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[02:30:20]: Ignored request to resume during migration
+[02:30:20]: [Steam] SendUserDisconnect for '76561198138510026'
+[02:30:39]: Registering secondary shard in US lobby
+[02:34:44]: CURL ERROR: (api.steampowered.com) Operation too slow. Less than 5 bytes/sec transferred the last 30 seconds
+[02:34:44]: Failed VersionCheckFileDetailsResponse
+[02:34:44]: Failure error code received: 0
+[02:34:44]: With Body: 
+[02:35:39]: Registering secondary shard in US lobby
+[02:37:37]: Available disk space for save files: 10696 MB
+[02:37:37]: Serializing world: session/47C57D51E8D753D0/0000000023
+[02:37:37]: Truncating to snapshot #23...
+[02:37:37]:  - session/47C57D51E8D753D0/0000000016
+[02:37:37]:  - session/47C57D51E8D753D0/0000000017
+[02:37:37]:    2 file(s) removed
+[02:40:24]: [P2P] Session timed out for '76561198138510026'
+[02:40:24]: [P2P] Remove session: 188.35.23.61|1 '76561198138510026'
+[02:40:39]: Registering secondary shard in US lobby
+[02:45:37]: Available disk space for save files: 10697 MB
+[02:45:38]: Serializing world: session/47C57D51E8D753D0/0000000024
+[02:45:38]: Truncating to snapshot #24...
+[02:45:38]:  - session/47C57D51E8D753D0/0000000018
+[02:45:38]:    1 file(s) removed
+[02:45:39]: Registering secondary shard in US lobby
+[02:50:39]: Registering secondary shard in US lobby
+[02:53:38]: Available disk space for save files: 10694 MB
+[02:53:38]: Serializing world: session/47C57D51E8D753D0/0000000025
+[02:53:38]: Truncating to snapshot #25...
+[02:53:38]:  - session/47C57D51E8D753D0/0000000019
+[02:53:38]:    1 file(s) removed
+[02:55:39]: Registering secondary shard in US lobby
+[03:00:06]: [200] Account Communication Success (6)
+[03:00:06]: Received (KU_1_oDY2UT) from TokenPurpose
+[03:00:39]: Registering secondary shard in US lobby
+[03:01:38]: Available disk space for save files: 10689 MB
+[03:01:38]: Serializing world: session/47C57D51E8D753D0/0000000026
+[03:01:38]: Truncating to snapshot #26...
+[03:01:38]:  - session/47C57D51E8D753D0/0000000020
+[03:01:38]:    1 file(s) removed
+[03:05:39]: Registering secondary shard in US lobby
+[03:06:39]: World 1 is now disconnected	
+[03:06:39]: Validating portal[7] <-> 1[7] (inactive)	
+[03:06:39]: Validating portal[1] <-> 1[1] (inactive)	
+[03:06:39]: Validating portal[10] <-> 1[10] (inactive)	
+[03:06:39]: Validating portal[6] <-> 1[6] (inactive)	
+[03:06:39]: Validating portal[2] <-> 1[2] (inactive)	
+[03:06:39]: Validating portal[8] <-> 1[8] (inactive)	
+[03:06:39]: Validating portal[3] <-> 1[3] (inactive)	
+[03:06:39]: Validating portal[9] <-> 1[9] (inactive)	
+[03:06:39]: Validating portal[4] <-> 1[4] (inactive)	
+[03:06:39]: Validating portal[5] <-> 1[5] (inactive)	
+[03:06:39]: Sim paused
+[03:06:50]: Synchronizing backward to master snapshot 26	
+[03:06:50]: World 1 is now connected	
+[03:06:50]: Validating portal[7] <-> 1[7] (active)	
+[03:06:50]: Validating portal[1] <-> 1[1] (active)	
+[03:06:50]: Validating portal[10] <-> 1[10] (active)	
+[03:06:50]: Validating portal[6] <-> 1[6] (active)	
+[03:06:50]: Validating portal[2] <-> 1[2] (active)	
+[03:06:50]: Validating portal[8] <-> 1[8] (active)	
+[03:06:50]: Validating portal[3] <-> 1[3] (active)	
+[03:06:50]: Validating portal[9] <-> 1[9] (active)	
+[03:06:50]: Validating portal[4] <-> 1[4] (active)	
+[03:06:50]: Validating portal[5] <-> 1[5] (active)	
+[03:06:50]: Sim unpaused
+[03:06:50]: Collecting garbage...
+[03:06:50]: lua_gc took 0.13 seconds
+[03:06:50]: ~ShardLuaProxy()
+[03:06:50]: ~cEventLeaderboardProxy()
+[03:06:50]: ~ItemServerLuaProxy()
+[03:06:50]: ~InventoryLuaProxy()
+[03:06:50]: ~NetworkLuaProxy()
+[03:06:50]: ~SimLuaProxy()
+[03:06:50]: lua_close took 0.25 seconds
+[03:06:50]: ReleaseAll
+[03:06:50]: ReleaseAll Finished
+[03:06:50]: cGame::StartPlaying
+[03:06:50]: LOADING LUA
+[03:06:50]: DoLuaFile scripts/main.lua
+[03:06:50]: DoLuaFile loading buffer scripts/main.lua
+[03:06:50]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[03:06:52]:   taskgrouplist:	default	联机版	
+[03:06:52]:   taskgrouplist:	classic	经典	
+[03:06:52]:   taskgrouplist:	cave_default	地下	
+[03:06:52]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[03:06:52]:   taskgrouplist:	quagmire_taskset	暴食	
+[03:06:52]: running main.lua
+	
+[03:06:52]: unloading prefabs for mod MOD_workshop-375850593	
+[03:06:52]: unloading prefabs for mod MOD_workshop-347079953	
+[03:06:52]: unloading prefabs for mod MOD_workshop-362175979	
+[03:06:52]: unloading prefabs for mod MOD_workshop-2208128427	
+[03:06:52]: unloading prefabs for mod MOD_workshop-378160973	
+[03:06:52]: loaded modindex	
+[03:06:52]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[03:06:52]: SUCCESS: Loaded modoverrides.lua	
+[03:06:52]: modoverrides.lua enabling workshop-362175979	
+[03:06:52]: modoverrides.lua enabling workshop-378160973	
+[03:06:52]: modoverrides.lua enabling workshop-347079953	
+[03:06:52]: modoverrides.lua enabling workshop-375850593	
+[03:06:52]: modoverrides.lua enabling workshop-2208128427	
+[03:06:52]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2208128427	
+[03:06:52]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[03:06:52]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[03:06:52]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[03:06:52]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[03:06:52]: Could not load mod_config_data/modconfiguration_workshop-2208128427	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[03:06:52]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[03:06:52]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[03:06:52]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[03:06:52]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[03:06:52]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[03:06:52]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[03:06:52]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[03:06:52]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[03:06:52]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[03:06:52]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[03:06:52]: Loading mod: workshop-2208128427 (Loot Pump) Version:1.07	
+[03:06:52]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[03:06:52]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[03:06:52]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[03:06:52]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[03:06:52]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[03:06:52]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[03:06:52]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[03:06:52]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[03:06:52]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[03:06:52]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[03:06:52]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[03:06:52]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[03:06:52]: Could not load mod_config_data/modconfiguration_workshop-362175979	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[03:06:52]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[03:06:52]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[03:06:52]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[03:06:52]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[03:06:52]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[03:06:52]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[03:06:52]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[03:06:52]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[03:06:52]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[03:06:52]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[03:06:52]: Loading mod: workshop-362175979 (Wormhole Marks) Version:1.4.5	
+[03:06:52]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[03:06:52]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[03:06:52]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[03:06:52]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[03:06:52]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[03:06:52]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[03:06:52]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[03:06:52]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[03:06:52]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[03:06:52]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[03:06:52]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[03:06:52]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[03:06:52]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[03:06:52]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[03:06:52]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[03:06:52]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[03:06:52]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[03:06:52]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[03:06:52]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[03:06:52]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[03:06:52]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[03:06:52]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[03:06:52]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[03:06:52]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[03:06:52]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[03:06:52]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
+[03:06:52]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[03:06:52]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[03:06:52]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[03:06:52]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[03:06:52]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[03:06:52]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[03:06:52]: Mod: workshop-362175979 (Wormhole Marks)	Loading modworldgenmain.lua	
+[03:06:52]: Mod: workshop-362175979 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[03:06:52]: Mod: workshop-362175979 (Wormhole Marks)	Loading modmain.lua	
+[03:06:52]: Mod: workshop-2208128427 (Loot Pump)	Loading modworldgenmain.lua	
+[03:06:52]: Mod: workshop-2208128427 (Loot Pump)	  Mod had no modworldgenmain.lua. Skipping.	
+[03:06:52]: Mod: workshop-2208128427 (Loot Pump)	Loading modmain.lua	
+[03:06:52]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[03:06:52]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[03:06:52]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[03:06:52]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2208128427	
+[03:06:52]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[03:06:52]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[03:06:52]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[03:06:52]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[03:06:53]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[03:06:53]: LOADING LUA SUCCESS
+[03:06:53]: Registering Server mod namespace "workshop-378160973"
+[03:06:53]: Registering Server mod namespace "food item"
+[03:06:53]: PlayerDeaths could not load morgue	
+[03:06:53]: PlayerHistory could not load player_history	
+[03:06:53]: ServerPreferences could not load server_preferences	
+[03:06:53]: bloom_enabled	false	
+[03:06:53]: OnFilesLoaded()	
+[03:06:53]: OnUpdatePurchaseStateComplete	
+[03:06:53]: Loading world: session/47C57D51E8D753D0/0000000026	
+[03:06:53]: Save file is at version 5.063	
+[03:06:53]: Klump load on boot started.	
+[03:06:53]: Klump files loaded: 	0	
+[03:06:53]: 	Unload characters	
+[03:06:53]: 	BE assets already loaded	
+[03:06:54]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[03:06:54]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[03:06:54]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[03:06:54]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[03:06:54]: Mod: workshop-362175979 (Wormhole Marks)	Registering prefabs	
+[03:06:54]: Mod: workshop-362175979 (Wormhole Marks)	  Registering default mod prefab	
+[03:06:54]: Mod: workshop-2208128427 (Loot Pump)	Registering prefabs	
+[03:06:54]: Mod: workshop-2208128427 (Loot Pump)	  Registering prefab file: prefabs/loot_pump	
+[03:06:54]: Mod: workshop-2208128427 (Loot Pump)	    loot_pump	
+[03:06:54]: Mod: workshop-2208128427 (Loot Pump)	    loot_pump_placer	
+[03:06:54]: Mod: workshop-2208128427 (Loot Pump)	  Registering default mod prefab	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[03:06:54]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[03:06:54]: Begin Session: 47C57D51E8D753D0
+[03:06:54]: Stomping previously assigned session identifier, two loads issued.
+[03:06:54]: saving to server_temp/server_save	
+[03:06:54]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_1.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_2.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_3.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_4.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_5.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_6.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_7.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_8.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_9.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_10.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_11.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_12.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_13.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_14.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_15.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_16.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_17.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_18.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_19.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_20.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_21.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_22.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-2208128427/minimap/loot_pump.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[03:06:54]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[03:06:54]: Loading 17 new character(s)	
+[03:06:55]: Total 17 character(s) loaded	
+[03:06:58]: Loading Nav Grid	
+[03:06:58]: World generated on build 436739 with save version: 5.063, using seed: 1603542103	
+[03:06:58]: setting 	summerlength	15	
+[03:06:58]: setting 	iscavefullmoon	false	
+[03:06:58]: setting 	isnightmaredawn	false	
+[03:06:58]: setting 	elapseddaysinseason	2	
+[03:06:58]: setting 	isfullmoon	false	
+[03:06:58]: setting 	moisture	5169.8041992188	
+[03:06:58]: setting 	cavephase	day	
+[03:06:58]: setting 	iscavewaxingmoon	true	
+[03:06:58]: setting 	isnightmarewild	false	
+[03:06:58]: setting 	nightmaretimeinphase	0.093539621852765	
+[03:06:58]: setting 	precipitationrate	0.19143630523856	
+[03:06:58]: setting 	iswet	false	
+[03:06:58]: setting 	winterlength	15	
+[03:06:58]: setting 	iswinter	true	
+[03:06:58]: setting 	israining	true	
+[03:06:58]: setting 	isnightmarewarn	true	
+[03:06:58]: setting 	isnewmoon	false	
+[03:06:58]: setting 	precipitation	rain	
+[03:06:58]: setting 	issummer	false	
+[03:06:58]: setting 	springlength	20	
+[03:06:58]: setting 	moistureceil	5249.22265625	
+[03:06:58]: setting 	isday	false	
+[03:06:58]: setting 	iscaveday	true	
+[03:06:58]: setting 	wetness	1.0657877922058	
+[03:06:58]: setting 	temperature	-5.0904230846896	
+[03:06:58]: setting 	isspring	false	
+[03:06:58]: setting 	isnightmarecalm	false	
+[03:06:58]: setting 	time	0.0020913441975911	
+[03:06:58]: setting 	isdusk	false	
+[03:06:58]: setting 	iscavedusk	false	
+[03:06:58]: setting 	isautumn	false	
+[03:06:58]: setting 	issnowing	false	
+[03:06:58]: setting 	iswaxingmoon	true	
+[03:06:58]: setting 	phase	night	
+[03:06:58]: setting 	snowlevel	0	
+[03:06:58]: setting 	issnowcovered	false	
+[03:06:58]: setting 	autumnlength	20	
+[03:06:58]: setting 	pop	1	
+[03:06:58]: setting 	nightmaretime	368.41856596675	
+[03:06:58]: setting 	remainingdaysinseason	13	
+[03:06:58]: setting 	isnight	true	
+[03:06:58]: setting 	nightmarephase	warn	
+[03:06:58]: setting 	cycles	22	
+[03:06:58]: setting 	timeinphase	0.0055769178602431	
+[03:06:58]: setting 	iscavenight	false	
+[03:06:58]: setting 	iscavenewmoon	false	
+[03:06:58]: setting 	season	winter	
+[03:06:58]: setting 	cavemoonphase	quarter	
+[03:06:58]: setting 	moonphase	new	
+[03:07:01]: SWITCHING 	false	
+[03:07:01]: Reconstructing topology	
+[03:07:01]: 	...Sorting points	
+[03:07:01]: 	...Sorting edges	
+[03:07:01]: 	...Connecting nodes	
+[03:07:01]: 	...Validating connections	
+[03:07:01]: 	...Housekeeping	
+[03:07:01]: 	...Done!	
+[03:07:01]: 1 uploads added to server. From server_temp
+[03:07:01]: World 1 is now connected	
+[03:07:01]: Telling Client our new session identifier: 47C57D51E8D753D0
+[03:07:01]: Check for write access: TRUE
+[03:07:01]: Check for read access: TRUE
+[03:07:01]: Available disk space for save files: 10735 MB
+[03:07:01]: ModIndex: Load sequence finished successfully.	
+[03:07:01]: Reset() returning
+[03:07:01]: Validating portal[3] <-> 1[3] (active)	
+[03:07:01]: Validating portal[2] <-> 1[2] (active)	
+[03:07:01]: Validating portal[8] <-> 1[8] (active)	
+[03:07:01]: Validating portal[7] <-> 1[7] (active)	
+[03:07:01]: Validating portal[4] <-> 1[4] (active)	
+[03:07:01]: Validating portal[6] <-> 1[6] (active)	
+[03:07:01]: Validating portal[10] <-> 1[10] (active)	
+[03:07:01]: Validating portal[9] <-> 1[9] (active)	
+[03:07:01]: Validating portal[1] <-> 1[1] (active)	
+[03:07:01]: Validating portal[5] <-> 1[5] (active)	
+[03:10:39]: Registering secondary shard in US lobby
+[03:12:36]: CURL ERROR: (api.steampowered.com) Operation too slow. Less than 5 bytes/sec transferred the last 30 seconds
+[03:12:36]: Failed VersionCheckFileDetailsResponse
+[03:12:36]: Failure error code received: 0
+[03:12:37]: With Body: 
+[03:14:58]: Available disk space for save files: 10735 MB
+[03:14:58]: Serializing world: session/47C57D51E8D753D0/0000000027
+[03:14:58]: Truncating to snapshot #27...
+[03:14:58]:  - session/47C57D51E8D753D0/0000000021
+[03:14:58]:    1 file(s) removed
+[03:15:39]: Registering secondary shard in US lobby
+[03:20:39]: Registering secondary shard in US lobby
+[03:22:58]: Available disk space for save files: 10730 MB
+[03:22:58]: Serializing world: session/47C57D51E8D753D0/0000000028
+[03:22:58]: Truncating to snapshot #28...
+[03:22:58]:  - session/47C57D51E8D753D0/0000000022
+[03:22:58]:  - session/47C57D51E8D753D0/A7JR31U0OF2C/0000000022
+[03:22:58]:    2 file(s) removed
+[03:25:39]: Registering secondary shard in US lobby
+[03:28:37]: CURL ERROR: (api.steampowered.com) Operation too slow. Less than 5 bytes/sec transferred the last 30 seconds
+[03:28:37]: Failed VersionCheckFileDetailsResponse
+[03:28:37]: Failure error code received: 0
+[03:28:37]: With Body: 
+[03:30:06]: [200] Account Communication Success (6)
+[03:30:06]: Received (KU_1_oDY2UT) from TokenPurpose
+[03:30:39]: Registering secondary shard in US lobby
+[03:30:58]: Available disk space for save files: 10723 MB
+[03:30:59]: Serializing world: session/47C57D51E8D753D0/0000000029
+[03:30:59]: Truncating to snapshot #29...
+[03:30:59]:  - session/47C57D51E8D753D0/0000000023
+[03:30:59]:    1 file(s) removed
+[03:35:39]: Registering secondary shard in US lobby
+[03:38:37]: CURL ERROR: (api.steampowered.com) Operation too slow. Less than 5 bytes/sec transferred the last 30 seconds
+[03:38:37]: Failed VersionCheckFileDetailsResponse
+[03:38:37]: Failure error code received: 0
+[03:38:37]: With Body: 
+[03:38:59]: Available disk space for save files: 10718 MB
+[03:38:59]: Serializing world: session/47C57D51E8D753D0/0000000030
+[03:38:59]: Truncating to snapshot #30...
+[03:38:59]:  - session/47C57D51E8D753D0/0000000024
+[03:38:59]:    1 file(s) removed
+[03:40:39]: Registering secondary shard in US lobby
+[03:45:39]: Registering secondary shard in US lobby
+[03:46:59]: Available disk space for save files: 10714 MB
+[03:46:59]: Serializing world: session/47C57D51E8D753D0/0000000031
+[03:46:59]: Truncating to snapshot #31...
+[03:46:59]:  - session/47C57D51E8D753D0/0000000025
+[03:46:59]:    1 file(s) removed
+[03:50:39]: Registering secondary shard in US lobby
+[03:54:59]: Available disk space for save files: 10713 MB
+[03:55:00]: Serializing world: session/47C57D51E8D753D0/0000000032
+[03:55:00]: Truncating to snapshot #32...
+[03:55:00]:  - session/47C57D51E8D753D0/0000000026
+[03:55:00]:    1 file(s) removed
+[03:55:39]: Registering secondary shard in US lobby
+[04:00:06]: [200] Account Communication Success (6)
+[04:00:06]: Received (KU_1_oDY2UT) from TokenPurpose
+[04:00:39]: World 1 is now disconnected	
+[04:00:39]: Validating portal[3] <-> 1[3] (inactive)	
+[04:00:39]: Validating portal[2] <-> 1[2] (inactive)	
+[04:00:39]: Validating portal[8] <-> 1[8] (inactive)	
+[04:00:39]: Validating portal[7] <-> 1[7] (inactive)	
+[04:00:39]: Validating portal[4] <-> 1[4] (inactive)	
+[04:00:39]: Validating portal[6] <-> 1[6] (inactive)	
+[04:00:39]: Validating portal[10] <-> 1[10] (inactive)	
+[04:00:39]: Validating portal[9] <-> 1[9] (inactive)	
+[04:00:39]: Validating portal[1] <-> 1[1] (inactive)	
+[04:00:39]: Validating portal[5] <-> 1[5] (inactive)	
+[04:00:39]: Sim paused
+[04:00:39]: Registering secondary shard in US lobby
+[04:00:49]: Synchronizing backward to master snapshot 32	
+[04:00:49]: World 1 is now connected	
+[04:00:49]: Validating portal[3] <-> 1[3] (active)	
+[04:00:49]: Validating portal[2] <-> 1[2] (active)	
+[04:00:49]: Validating portal[8] <-> 1[8] (active)	
+[04:00:49]: Validating portal[7] <-> 1[7] (active)	
+[04:00:49]: Validating portal[4] <-> 1[4] (active)	
+[04:00:49]: Validating portal[6] <-> 1[6] (active)	
+[04:00:49]: Validating portal[10] <-> 1[10] (active)	
+[04:00:49]: Validating portal[9] <-> 1[9] (active)	
+[04:00:49]: Validating portal[1] <-> 1[1] (active)	
+[04:00:49]: Validating portal[5] <-> 1[5] (active)	
+[04:00:49]: Sim unpaused
+[04:00:49]: Collecting garbage...
+[04:00:49]: lua_gc took 0.08 seconds
+[04:00:50]: ~ShardLuaProxy()
+[04:00:50]: ~cEventLeaderboardProxy()
+[04:00:50]: ~ItemServerLuaProxy()
+[04:00:50]: ~InventoryLuaProxy()
+[04:00:50]: ~NetworkLuaProxy()
+[04:00:50]: ~SimLuaProxy()
+[04:00:50]: lua_close took 0.23 seconds
+[04:00:50]: ReleaseAll
+[04:00:50]: ReleaseAll Finished
+[04:00:50]: cGame::StartPlaying
+[04:00:50]: LOADING LUA
+[04:00:50]: DoLuaFile scripts/main.lua
+[04:00:50]: DoLuaFile loading buffer scripts/main.lua
+[04:00:50]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[04:00:51]:   taskgrouplist:	default	联机版	
+[04:00:51]:   taskgrouplist:	classic	经典	
+[04:00:51]:   taskgrouplist:	cave_default	地下	
+[04:00:51]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[04:00:51]:   taskgrouplist:	quagmire_taskset	暴食	
+[04:00:51]: running main.lua
+	
+[04:00:51]: unloading prefabs for mod MOD_workshop-375850593	
+[04:00:51]: unloading prefabs for mod MOD_workshop-347079953	
+[04:00:51]: unloading prefabs for mod MOD_workshop-362175979	
+[04:00:51]: unloading prefabs for mod MOD_workshop-2208128427	
+[04:00:51]: unloading prefabs for mod MOD_workshop-378160973	
+[04:00:51]: loaded modindex	
+[04:00:51]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[04:00:51]: SUCCESS: Loaded modoverrides.lua	
+[04:00:51]: modoverrides.lua enabling workshop-362175979	
+[04:00:51]: modoverrides.lua enabling workshop-378160973	
+[04:00:51]: modoverrides.lua enabling workshop-347079953	
+[04:00:51]: modoverrides.lua enabling workshop-375850593	
+[04:00:51]: modoverrides.lua enabling workshop-2208128427	
+[04:00:51]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2208128427	
+[04:00:51]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[04:00:51]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[04:00:51]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[04:00:51]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[04:00:51]: Could not load mod_config_data/modconfiguration_workshop-2208128427	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[04:00:51]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[04:00:51]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[04:00:51]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[04:00:51]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[04:00:51]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[04:00:51]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[04:00:51]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[04:00:51]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[04:00:51]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[04:00:51]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[04:00:51]: Loading mod: workshop-2208128427 (Loot Pump) Version:1.07	
+[04:00:51]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[04:00:51]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[04:00:51]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[04:00:51]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[04:00:51]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[04:00:51]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[04:00:51]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[04:00:51]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[04:00:51]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[04:00:51]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[04:00:51]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[04:00:51]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[04:00:51]: Could not load mod_config_data/modconfiguration_workshop-362175979	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[04:00:51]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[04:00:51]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[04:00:51]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[04:00:51]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[04:00:51]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[04:00:51]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[04:00:51]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[04:00:51]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[04:00:51]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[04:00:51]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[04:00:51]: Loading mod: workshop-362175979 (Wormhole Marks) Version:1.4.5	
+[04:00:51]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[04:00:51]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[04:00:51]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[04:00:51]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[04:00:51]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[04:00:51]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[04:00:51]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[04:00:51]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[04:00:51]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[04:00:51]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[04:00:51]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[04:00:51]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[04:00:51]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[04:00:51]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[04:00:51]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[04:00:51]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[04:00:51]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[04:00:51]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[04:00:51]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[04:00:51]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[04:00:51]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[04:00:51]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[04:00:51]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[04:00:51]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[04:00:51]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[04:00:51]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
+[04:00:51]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[04:00:51]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[04:00:51]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[04:00:51]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[04:00:51]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[04:00:51]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[04:00:51]: Mod: workshop-362175979 (Wormhole Marks)	Loading modworldgenmain.lua	
+[04:00:51]: Mod: workshop-362175979 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[04:00:51]: Mod: workshop-362175979 (Wormhole Marks)	Loading modmain.lua	
+[04:00:51]: Mod: workshop-2208128427 (Loot Pump)	Loading modworldgenmain.lua	
+[04:00:51]: Mod: workshop-2208128427 (Loot Pump)	  Mod had no modworldgenmain.lua. Skipping.	
+[04:00:51]: Mod: workshop-2208128427 (Loot Pump)	Loading modmain.lua	
+[04:00:51]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[04:00:51]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[04:00:51]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[04:00:51]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2208128427	
+[04:00:51]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[04:00:51]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[04:00:51]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[04:00:51]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[04:00:52]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[04:00:52]: LOADING LUA SUCCESS
+[04:00:52]: Registering Server mod namespace "workshop-378160973"
+[04:00:52]: Registering Server mod namespace "food item"
+[04:00:52]: PlayerDeaths could not load morgue	
+[04:00:52]: PlayerHistory could not load player_history	
+[04:00:52]: ServerPreferences could not load server_preferences	
+[04:00:52]: bloom_enabled	false	
+[04:00:52]: OnFilesLoaded()	
+[04:00:52]: OnUpdatePurchaseStateComplete	
+[04:00:52]: Loading world: session/47C57D51E8D753D0/0000000032	
+[04:00:52]: Save file is at version 5.063	
+[04:00:52]: Klump load on boot started.	
+[04:00:52]: Klump files loaded: 	0	
+[04:00:52]: 	Unload characters	
+[04:00:52]: 	BE assets already loaded	
+[04:00:53]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[04:00:53]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[04:00:53]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[04:00:53]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[04:00:53]: Mod: workshop-362175979 (Wormhole Marks)	Registering prefabs	
+[04:00:53]: Mod: workshop-362175979 (Wormhole Marks)	  Registering default mod prefab	
+[04:00:53]: Mod: workshop-2208128427 (Loot Pump)	Registering prefabs	
+[04:00:53]: Mod: workshop-2208128427 (Loot Pump)	  Registering prefab file: prefabs/loot_pump	
+[04:00:53]: Mod: workshop-2208128427 (Loot Pump)	    loot_pump	
+[04:00:53]: Mod: workshop-2208128427 (Loot Pump)	    loot_pump_placer	
+[04:00:53]: Mod: workshop-2208128427 (Loot Pump)	  Registering default mod prefab	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[04:00:53]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[04:00:53]: Begin Session: 47C57D51E8D753D0
+[04:00:53]: Stomping previously assigned session identifier, two loads issued.
+[04:00:53]: saving to server_temp/server_save	
+[04:00:54]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_1.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_2.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_3.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_4.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_5.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_6.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_7.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_8.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_9.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_10.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_11.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_12.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_13.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_14.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_15.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_16.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_17.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_18.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_19.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_20.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_21.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_22.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-2208128427/minimap/loot_pump.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[04:00:54]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[04:00:54]: Loading 17 new character(s)	
+[04:00:54]: Total 17 character(s) loaded	
+[04:00:57]: Loading Nav Grid	
+[04:00:57]: World generated on build 436739 with save version: 5.063, using seed: 1603542103	
+[04:00:57]: setting 	summerlength	15	
+[04:00:57]: setting 	iscavefullmoon	false	
+[04:00:57]: setting 	isnightmaredawn	true	
+[04:00:57]: setting 	elapseddaysinseason	8	
+[04:00:57]: setting 	isfullmoon	false	
+[04:00:57]: setting 	moisture	1802.3828125	
+[04:00:57]: setting 	cavephase	day	
+[04:00:57]: setting 	iscavewaxingmoon	true	
+[04:00:57]: setting 	isnightmarewild	false	
+[04:00:57]: setting 	nightmaretimeinphase	0.4817684924553	
+[04:00:57]: setting 	precipitationrate	0	
+[04:00:57]: setting 	iswet	true	
+[04:00:57]: setting 	winterlength	15	
+[04:00:57]: setting 	iswinter	true	
+[04:00:57]: setting 	israining	false	
+[04:00:57]: setting 	isnightmarewarn	false	
+[04:00:57]: setting 	isnewmoon	false	
+[04:00:57]: setting 	precipitation	none	
+[04:00:57]: setting 	issummer	false	
+[04:00:57]: setting 	springlength	20	
+[04:00:57]: setting 	moistureceil	1839.5629882813	
+[04:00:57]: setting 	isday	false	
+[04:00:57]: setting 	iscaveday	true	
+[04:00:57]: setting 	wetness	51.894508361816	
+[04:00:57]: setting 	temperature	-14.740125121074	
+[04:00:57]: setting 	isspring	false	
+[04:00:57]: setting 	isnightmarecalm	false	
+[04:00:57]: setting 	time	0.0021481196085612	
+[04:00:57]: setting 	isdusk	false	
+[04:00:57]: setting 	iscavedusk	false	
+[04:00:57]: setting 	isautumn	false	
+[04:00:57]: setting 	issnowing	false	
+[04:00:57]: setting 	iswaxingmoon	true	
+[04:00:57]: setting 	phase	night	
+[04:00:57]: setting 	snowlevel	0	
+[04:00:58]: setting 	issnowcovered	false	
+[04:00:58]: setting 	autumnlength	20	
+[04:00:58]: setting 	pop	0.91512749684633	
+[04:00:58]: setting 	nightmaretime	628.90610954732	
+[04:00:58]: setting 	remainingdaysinseason	7	
+[04:00:58]: setting 	isnight	true	
+[04:00:58]: setting 	nightmarephase	dawn	
+[04:00:58]: setting 	cycles	28	
+[04:00:58]: setting 	timeinphase	0.0068739827473958	
+[04:00:58]: setting 	iscavenight	false	
+[04:00:58]: setting 	iscavenewmoon	false	
+[04:00:58]: setting 	season	winter	
+[04:00:58]: setting 	cavemoonphase	threequarter	
+[04:00:58]: setting 	moonphase	new	
+[04:01:00]: SWITCHING 	false	
+[04:01:01]: Reconstructing topology	
+[04:01:01]: 	...Sorting points	
+[04:01:01]: 	...Sorting edges	
+[04:01:01]: 	...Connecting nodes	
+[04:01:01]: 	...Validating connections	
+[04:01:01]: 	...Housekeeping	
+[04:01:01]: 	...Done!	
+[04:01:01]: 1 uploads added to server. From server_temp
+[04:01:01]: World 1 is now connected	
+[04:01:01]: Telling Client our new session identifier: 47C57D51E8D753D0
+[04:01:01]: Check for write access: TRUE
+[04:01:01]: Check for read access: TRUE
+[04:01:01]: Available disk space for save files: 10723 MB
+[04:01:01]: ModIndex: Load sequence finished successfully.	
+[04:01:01]: Reset() returning
+[04:01:01]: Validating portal[5] <-> 1[5] (active)	
+[04:01:01]: Validating portal[7] <-> 1[7] (active)	
+[04:01:01]: Validating portal[8] <-> 1[8] (active)	
+[04:01:01]: Validating portal[6] <-> 1[6] (active)	
+[04:01:01]: Validating portal[9] <-> 1[9] (active)	
+[04:01:01]: Validating portal[3] <-> 1[3] (active)	
+[04:01:01]: Validating portal[4] <-> 1[4] (active)	
+[04:01:01]: Validating portal[1] <-> 1[1] (active)	
+[04:01:01]: Validating portal[2] <-> 1[2] (active)	
+[04:01:01]: Validating portal[10] <-> 1[10] (active)	
+[04:05:39]: Registering secondary shard in US lobby
+[04:08:57]: Available disk space for save files: 10720 MB
+[04:08:57]: Serializing world: session/47C57D51E8D753D0/0000000033
+[04:08:57]: Truncating to snapshot #33...
+[04:08:57]:  - session/47C57D51E8D753D0/0000000027
+[04:08:57]:    1 file(s) removed
+[04:10:39]: Registering secondary shard in US lobby
+[04:15:39]: Registering secondary shard in US lobby
+[04:16:57]: Available disk space for save files: 10719 MB
+[04:16:58]: Serializing world: session/47C57D51E8D753D0/0000000034
+[04:16:58]: Truncating to snapshot #34...
+[04:16:58]:  - session/47C57D51E8D753D0/0000000028
+[04:16:58]:    1 file(s) removed
+[04:17:07]: Sim paused
+[04:17:20]: Sim unpaused
+[04:17:43]: World 1 is now disconnected	
+[04:17:43]: Validating portal[5] <-> 1[5] (inactive)	
+[04:17:43]: Validating portal[7] <-> 1[7] (inactive)	
+[04:17:43]: Validating portal[8] <-> 1[8] (inactive)	
+[04:17:43]: Validating portal[6] <-> 1[6] (inactive)	
+[04:17:43]: Validating portal[9] <-> 1[9] (inactive)	
+[04:17:43]: Validating portal[3] <-> 1[3] (inactive)	
+[04:17:43]: Validating portal[4] <-> 1[4] (inactive)	
+[04:17:43]: Validating portal[1] <-> 1[1] (inactive)	
+[04:17:43]: Validating portal[2] <-> 1[2] (inactive)	
+[04:17:43]: Validating portal[10] <-> 1[10] (inactive)	
+[04:17:43]: Sim paused
+[04:17:54]: Synchronizing backward to master snapshot 34	
+[04:17:54]: World 1 is now connected	
+[04:17:54]: Validating portal[5] <-> 1[5] (active)	
+[04:17:54]: Validating portal[7] <-> 1[7] (active)	
+[04:17:54]: Validating portal[8] <-> 1[8] (active)	
+[04:17:54]: Validating portal[6] <-> 1[6] (active)	
+[04:17:54]: Validating portal[9] <-> 1[9] (active)	
+[04:17:54]: Validating portal[3] <-> 1[3] (active)	
+[04:17:54]: Validating portal[4] <-> 1[4] (active)	
+[04:17:54]: Validating portal[1] <-> 1[1] (active)	
+[04:17:54]: Validating portal[2] <-> 1[2] (active)	
+[04:17:54]: Validating portal[10] <-> 1[10] (active)	
+[04:17:54]: Sim unpaused
+[04:17:54]: Collecting garbage...
+[04:17:55]: lua_gc took 0.09 seconds
+[04:17:55]: ~ShardLuaProxy()
+[04:17:55]: ~cEventLeaderboardProxy()
+[04:17:55]: ~ItemServerLuaProxy()
+[04:17:55]: ~InventoryLuaProxy()
+[04:17:55]: ~NetworkLuaProxy()
+[04:17:55]: ~SimLuaProxy()
+[04:17:55]: lua_close took 0.22 seconds
+[04:17:55]: ReleaseAll
+[04:17:55]: ReleaseAll Finished
+[04:17:55]: cGame::StartPlaying
+[04:17:55]: LOADING LUA
+[04:17:55]: DoLuaFile scripts/main.lua
+[04:17:55]: DoLuaFile loading buffer scripts/main.lua
+[04:17:55]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[04:17:56]:   taskgrouplist:	default	联机版	
+[04:17:56]:   taskgrouplist:	classic	经典	
+[04:17:56]:   taskgrouplist:	cave_default	地下	
+[04:17:56]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[04:17:56]:   taskgrouplist:	quagmire_taskset	暴食	
+[04:17:56]: running main.lua
+	
+[04:17:56]: unloading prefabs for mod MOD_workshop-375850593	
+[04:17:56]: unloading prefabs for mod MOD_workshop-347079953	
+[04:17:56]: unloading prefabs for mod MOD_workshop-362175979	
+[04:17:56]: unloading prefabs for mod MOD_workshop-2208128427	
+[04:17:56]: unloading prefabs for mod MOD_workshop-378160973	
+[04:17:56]: loaded modindex	
+[04:17:56]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[04:17:56]: SUCCESS: Loaded modoverrides.lua	
+[04:17:56]: modoverrides.lua enabling workshop-362175979	
+[04:17:56]: modoverrides.lua enabling workshop-378160973	
+[04:17:56]: modoverrides.lua enabling workshop-347079953	
+[04:17:56]: modoverrides.lua enabling workshop-375850593	
+[04:17:56]: modoverrides.lua enabling workshop-2208128427	
+[04:17:56]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2208128427	
+[04:17:56]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[04:17:56]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[04:17:56]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[04:17:56]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[04:17:56]: Could not load mod_config_data/modconfiguration_workshop-2208128427	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[04:17:56]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[04:17:56]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[04:17:56]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[04:17:56]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[04:17:56]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[04:17:56]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[04:17:56]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[04:17:56]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[04:17:56]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[04:17:56]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[04:17:56]: Loading mod: workshop-2208128427 (Loot Pump) Version:1.07	
+[04:17:56]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[04:17:56]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[04:17:56]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[04:17:56]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[04:17:56]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[04:17:56]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[04:17:56]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[04:17:56]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[04:17:56]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[04:17:56]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[04:17:56]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[04:17:56]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[04:17:56]: Could not load mod_config_data/modconfiguration_workshop-362175979	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[04:17:56]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[04:17:56]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[04:17:56]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[04:17:56]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[04:17:56]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[04:17:56]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[04:17:56]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[04:17:56]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[04:17:56]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[04:17:56]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[04:17:56]: Loading mod: workshop-362175979 (Wormhole Marks) Version:1.4.5	
+[04:17:56]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[04:17:56]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[04:17:56]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[04:17:56]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[04:17:56]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[04:17:56]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[04:17:56]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[04:17:56]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[04:17:56]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[04:17:56]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[04:17:56]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[04:17:56]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[04:17:56]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[04:17:56]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[04:17:56]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[04:17:56]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[04:17:56]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[04:17:56]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[04:17:56]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[04:17:56]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[04:17:56]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[04:17:56]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[04:17:56]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[04:17:56]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[04:17:56]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[04:17:56]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
+[04:17:56]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[04:17:56]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[04:17:56]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[04:17:56]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[04:17:56]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[04:17:56]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[04:17:56]: Mod: workshop-362175979 (Wormhole Marks)	Loading modworldgenmain.lua	
+[04:17:56]: Mod: workshop-362175979 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[04:17:56]: Mod: workshop-362175979 (Wormhole Marks)	Loading modmain.lua	
+[04:17:56]: Mod: workshop-2208128427 (Loot Pump)	Loading modworldgenmain.lua	
+[04:17:56]: Mod: workshop-2208128427 (Loot Pump)	  Mod had no modworldgenmain.lua. Skipping.	
+[04:17:56]: Mod: workshop-2208128427 (Loot Pump)	Loading modmain.lua	
+[04:17:56]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[04:17:56]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[04:17:56]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[04:17:56]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2208128427	
+[04:17:56]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[04:17:56]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[04:17:56]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[04:17:56]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[04:17:57]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[04:17:57]: LOADING LUA SUCCESS
+[04:17:57]: Registering Server mod namespace "workshop-378160973"
+[04:17:57]: Registering Server mod namespace "food item"
+[04:17:57]: PlayerDeaths could not load morgue	
+[04:17:57]: PlayerHistory could not load player_history	
+[04:17:57]: ServerPreferences could not load server_preferences	
+[04:17:57]: bloom_enabled	false	
+[04:17:57]: OnFilesLoaded()	
+[04:17:57]: OnUpdatePurchaseStateComplete	
+[04:17:57]: Loading world: session/47C57D51E8D753D0/0000000034	
+[04:17:57]: Save file is at version 5.063	
+[04:17:57]: Klump load on boot started.	
+[04:17:57]: Klump files loaded: 	0	
+[04:17:57]: 	Unload characters	
+[04:17:57]: 	BE assets already loaded	
+[04:17:58]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[04:17:58]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[04:17:58]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[04:17:58]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[04:17:58]: Mod: workshop-362175979 (Wormhole Marks)	Registering prefabs	
+[04:17:58]: Mod: workshop-362175979 (Wormhole Marks)	  Registering default mod prefab	
+[04:17:58]: Mod: workshop-2208128427 (Loot Pump)	Registering prefabs	
+[04:17:58]: Mod: workshop-2208128427 (Loot Pump)	  Registering prefab file: prefabs/loot_pump	
+[04:17:58]: Mod: workshop-2208128427 (Loot Pump)	    loot_pump	
+[04:17:58]: Mod: workshop-2208128427 (Loot Pump)	    loot_pump_placer	
+[04:17:58]: Mod: workshop-2208128427 (Loot Pump)	  Registering default mod prefab	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[04:17:58]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[04:17:58]: Begin Session: 47C57D51E8D753D0
+[04:17:58]: Stomping previously assigned session identifier, two loads issued.
+[04:17:59]: saving to server_temp/server_save	
+[04:17:59]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_1.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_2.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_3.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_4.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_5.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_6.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_7.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_8.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_9.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_10.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_11.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_12.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_13.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_14.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_15.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_16.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_17.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_18.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_19.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_20.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_21.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_22.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-2208128427/minimap/loot_pump.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[04:17:59]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[04:17:59]: Loading 17 new character(s)	
+[04:17:59]: Total 17 character(s) loaded	
+[04:18:02]: Loading Nav Grid	
+[04:18:02]: World generated on build 436739 with save version: 5.063, using seed: 1603542103	
+[04:18:02]: setting 	summerlength	15	
+[04:18:02]: setting 	iscavefullmoon	false	
+[04:18:02]: setting 	isnightmaredawn	false	
+[04:18:02]: setting 	elapseddaysinseason	10	
+[04:18:02]: setting 	isfullmoon	false	
+[04:18:02]: setting 	moisture	1276.0581054688	
+[04:18:02]: setting 	cavephase	day	
+[04:18:02]: setting 	iscavewaxingmoon	false	
+[04:18:02]: setting 	isnightmarewild	false	
+[04:18:02]: setting 	nightmaretimeinphase	0.08915828967385	
+[04:18:02]: setting 	precipitationrate	0	
+[04:18:02]: setting 	iswet	true	
+[04:18:02]: setting 	winterlength	15	
+[04:18:02]: setting 	iswinter	true	
+[04:18:02]: setting 	israining	false	
+[04:18:02]: setting 	isnightmarewarn	false	
+[04:18:02]: setting 	isnewmoon	false	
+[04:18:02]: setting 	precipitation	none	
+[04:18:02]: setting 	issummer	false	
+[04:18:02]: setting 	springlength	20	
+[04:18:02]: setting 	moistureceil	2593.9951171875	
+[04:18:02]: setting 	isday	false	
+[04:18:02]: setting 	iscaveday	true	
+[04:18:02]: setting 	wetness	59.324546813965	
+[04:18:02]: setting 	temperature	-13.150927797583	
+[04:18:02]: setting 	isspring	false	
+[04:18:02]: setting 	isnightmarecalm	true	
+[04:18:02]: setting 	time	0.0022133509318034	
+[04:18:02]: setting 	isdusk	false	
+[04:18:02]: setting 	iscavedusk	false	
+[04:18:02]: setting 	isautumn	false	
+[04:18:02]: setting 	issnowing	false	
+[04:18:02]: setting 	iswaxingmoon	true	
+[04:18:02]: setting 	phase	night	
+[04:18:02]: setting 	snowlevel	0	
+[04:18:02]: setting 	issnowcovered	false	
+[04:18:02]: setting 	autumnlength	20	
+[04:18:02]: setting 	pop	0.11927924165219	
+[04:18:02]: setting 	nightmaretime	32.096984282586	
+[04:18:02]: setting 	remainingdaysinseason	5	
+[04:18:02]: setting 	isnight	true	
+[04:18:02]: setting 	nightmarephase	calm	
+[04:18:02]: setting 	cycles	30	
+[04:18:02]: setting 	timeinphase	0.0070827229817708	
+[04:18:02]: setting 	iscavenight	false	
+[04:18:02]: setting 	iscavenewmoon	false	
+[04:18:02]: setting 	season	winter	
+[04:18:02]: setting 	cavemoonphase	full	
+[04:18:02]: setting 	moonphase	new	
+[04:18:06]: SWITCHING 	false	
+[04:18:06]: Reconstructing topology	
+[04:18:06]: 	...Sorting points	
+[04:18:06]: 	...Sorting edges	
+[04:18:06]: 	...Connecting nodes	
+[04:18:06]: 	...Validating connections	
+[04:18:06]: 	...Housekeeping	
+[04:18:06]: 	...Done!	
+[04:18:06]: 1 uploads added to server. From server_temp
+[04:18:06]: World 1 is now connected	
+[04:18:06]: Telling Client our new session identifier: 47C57D51E8D753D0
+[04:18:06]: Check for write access: TRUE
+[04:18:06]: Check for read access: TRUE
+[04:18:06]: Available disk space for save files: 10724 MB
+[04:18:06]: ModIndex: Load sequence finished successfully.	
+[04:18:06]: Reset() returning
+[04:18:06]: Validating portal[3] <-> 1[3] (active)	
+[04:18:06]: Validating portal[8] <-> 1[8] (active)	
+[04:18:06]: Validating portal[2] <-> 1[2] (active)	
+[04:18:06]: Validating portal[6] <-> 1[6] (active)	
+[04:18:06]: Validating portal[9] <-> 1[9] (active)	
+[04:18:06]: Validating portal[4] <-> 1[4] (active)	
+[04:18:06]: Validating portal[1] <-> 1[1] (active)	
+[04:18:06]: Validating portal[7] <-> 1[7] (active)	
+[04:18:06]: Validating portal[10] <-> 1[10] (active)	
+[04:18:06]: Validating portal[5] <-> 1[5] (active)	
+[04:20:39]: Registering secondary shard in US lobby
+[04:20:45]: World 1 is now disconnected	
+[04:20:45]: Validating portal[3] <-> 1[3] (inactive)	
+[04:20:45]: Validating portal[8] <-> 1[8] (inactive)	
+[04:20:45]: Validating portal[2] <-> 1[2] (inactive)	
+[04:20:45]: Validating portal[6] <-> 1[6] (inactive)	
+[04:20:45]: Validating portal[9] <-> 1[9] (inactive)	
+[04:20:45]: Validating portal[4] <-> 1[4] (inactive)	
+[04:20:45]: Validating portal[1] <-> 1[1] (inactive)	
+[04:20:45]: Validating portal[7] <-> 1[7] (inactive)	
+[04:20:45]: Validating portal[10] <-> 1[10] (inactive)	
+[04:20:45]: Validating portal[5] <-> 1[5] (inactive)	
+[04:20:45]: Sim paused
+[04:20:56]: Synchronizing backward to master snapshot 33	
+[04:20:56]: Truncating to snapshot #33...
+[04:20:56]:  - session/47C57D51E8D753D0/0000000034
+[04:20:56]:    1 file(s) removed
+[04:20:56]: World 1 is now connected	
+[04:20:56]: Validating portal[3] <-> 1[3] (active)	
+[04:20:56]: Validating portal[8] <-> 1[8] (active)	
+[04:20:56]: Validating portal[2] <-> 1[2] (active)	
+[04:20:56]: Validating portal[6] <-> 1[6] (active)	
+[04:20:56]: Validating portal[9] <-> 1[9] (active)	
+[04:20:56]: Validating portal[4] <-> 1[4] (active)	
+[04:20:56]: Validating portal[1] <-> 1[1] (active)	
+[04:20:56]: Validating portal[7] <-> 1[7] (active)	
+[04:20:56]: Validating portal[10] <-> 1[10] (active)	
+[04:20:56]: Validating portal[5] <-> 1[5] (active)	
+[04:20:56]: Sim unpaused
+[04:20:56]: Collecting garbage...
+[04:20:56]: lua_gc took 0.11 seconds
+[04:20:56]: ~ShardLuaProxy()
+[04:20:56]: ~cEventLeaderboardProxy()
+[04:20:56]: ~ItemServerLuaProxy()
+[04:20:56]: ~InventoryLuaProxy()
+[04:20:56]: ~NetworkLuaProxy()
+[04:20:56]: ~SimLuaProxy()
+[04:20:57]: lua_close took 0.23 seconds
+[04:20:57]: ReleaseAll
+[04:20:57]: ReleaseAll Finished
+[04:20:57]: cGame::StartPlaying
+[04:20:57]: LOADING LUA
+[04:20:57]: DoLuaFile scripts/main.lua
+[04:20:57]: DoLuaFile loading buffer scripts/main.lua
+[04:20:57]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[04:20:58]:   taskgrouplist:	default	联机版	
+[04:20:58]:   taskgrouplist:	classic	经典	
+[04:20:58]:   taskgrouplist:	cave_default	地下	
+[04:20:58]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[04:20:58]:   taskgrouplist:	quagmire_taskset	暴食	
+[04:20:58]: running main.lua
+	
+[04:20:58]: unloading prefabs for mod MOD_workshop-375850593	
+[04:20:58]: unloading prefabs for mod MOD_workshop-347079953	
+[04:20:58]: unloading prefabs for mod MOD_workshop-362175979	
+[04:20:58]: unloading prefabs for mod MOD_workshop-2208128427	
+[04:20:58]: unloading prefabs for mod MOD_workshop-378160973	
+[04:20:58]: loaded modindex	
+[04:20:58]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[04:20:58]: SUCCESS: Loaded modoverrides.lua	
+[04:20:58]: modoverrides.lua enabling workshop-362175979	
+[04:20:58]: modoverrides.lua enabling workshop-378160973	
+[04:20:58]: modoverrides.lua enabling workshop-347079953	
+[04:20:58]: modoverrides.lua enabling workshop-375850593	
+[04:20:58]: modoverrides.lua enabling workshop-2208128427	
+[04:20:58]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2208128427	
+[04:20:58]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[04:20:58]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[04:20:58]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[04:20:58]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[04:20:58]: Could not load mod_config_data/modconfiguration_workshop-2208128427	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[04:20:58]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[04:20:58]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[04:20:58]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[04:20:58]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[04:20:58]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[04:20:58]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[04:20:58]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[04:20:58]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[04:20:58]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[04:20:58]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[04:20:58]: Loading mod: workshop-2208128427 (Loot Pump) Version:1.07	
+[04:20:58]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[04:20:58]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[04:20:58]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[04:20:58]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[04:20:58]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[04:20:58]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[04:20:58]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[04:20:58]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[04:20:58]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[04:20:58]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[04:20:58]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[04:20:58]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[04:20:58]: Could not load mod_config_data/modconfiguration_workshop-362175979	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[04:20:58]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[04:20:58]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[04:20:58]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[04:20:58]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[04:20:58]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[04:20:58]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[04:20:58]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[04:20:58]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[04:20:58]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[04:20:58]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[04:20:58]: Loading mod: workshop-362175979 (Wormhole Marks) Version:1.4.5	
+[04:20:58]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[04:20:58]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[04:20:58]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[04:20:58]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[04:20:58]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[04:20:58]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[04:20:58]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[04:20:58]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[04:20:58]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[04:20:58]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[04:20:58]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[04:20:58]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[04:20:58]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[04:20:58]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[04:20:58]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[04:20:58]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[04:20:58]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[04:20:58]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[04:20:58]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[04:20:58]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[04:20:58]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[04:20:58]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[04:20:58]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[04:20:58]: applying configuration_options from modoverrides.lua to mod workshop-2208128427	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_EQUIP with value true	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_SOUND with value true	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_SPEED with value 1	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_TWOZN with value false	
+[04:20:58]: Overriding mod workshop-2208128427's option LOOT_PUMP_SCALE with value 1	
+[04:20:58]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
+[04:20:58]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[04:20:58]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[04:20:58]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[04:20:58]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[04:20:58]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[04:20:58]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[04:20:58]: Mod: workshop-362175979 (Wormhole Marks)	Loading modworldgenmain.lua	
+[04:20:58]: Mod: workshop-362175979 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[04:20:58]: Mod: workshop-362175979 (Wormhole Marks)	Loading modmain.lua	
+[04:20:58]: Mod: workshop-2208128427 (Loot Pump)	Loading modworldgenmain.lua	
+[04:20:58]: Mod: workshop-2208128427 (Loot Pump)	  Mod had no modworldgenmain.lua. Skipping.	
+[04:20:58]: Mod: workshop-2208128427 (Loot Pump)	Loading modmain.lua	
+[04:20:58]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[04:20:58]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[04:20:58]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[04:20:58]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2208128427	
+[04:20:58]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[04:20:58]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[04:20:58]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[04:20:58]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[04:20:59]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[04:20:59]: LOADING LUA SUCCESS
+[04:20:59]: Registering Server mod namespace "workshop-378160973"
+[04:20:59]: Registering Server mod namespace "food item"
+[04:20:59]: PlayerDeaths could not load morgue	
+[04:20:59]: PlayerHistory could not load player_history	
+[04:20:59]: ServerPreferences could not load server_preferences	
+[04:20:59]: bloom_enabled	false	
+[04:20:59]: OnFilesLoaded()	
+[04:20:59]: OnUpdatePurchaseStateComplete	
+[04:20:59]: Loading world: session/47C57D51E8D753D0/0000000033	
+[04:20:59]: Save file is at version 5.063	
+[04:20:59]: Klump load on boot started.	
+[04:20:59]: Klump files loaded: 	0	
+[04:20:59]: 	Unload characters	
+[04:20:59]: 	BE assets already loaded	
+[04:21:00]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[04:21:00]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[04:21:00]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[04:21:00]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[04:21:00]: Mod: workshop-362175979 (Wormhole Marks)	Registering prefabs	
+[04:21:00]: Mod: workshop-362175979 (Wormhole Marks)	  Registering default mod prefab	
+[04:21:00]: Mod: workshop-2208128427 (Loot Pump)	Registering prefabs	
+[04:21:00]: Mod: workshop-2208128427 (Loot Pump)	  Registering prefab file: prefabs/loot_pump	
+[04:21:00]: Mod: workshop-2208128427 (Loot Pump)	    loot_pump	
+[04:21:00]: Mod: workshop-2208128427 (Loot Pump)	    loot_pump_placer	
+[04:21:00]: Mod: workshop-2208128427 (Loot Pump)	  Registering default mod prefab	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[04:21:00]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[04:21:00]: Begin Session: 47C57D51E8D753D0
+[04:21:00]: Stomping previously assigned session identifier, two loads issued.
+[04:21:00]: saving to server_temp/server_save	
+[04:21:01]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_1.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_2.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_3.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_4.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_5.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_6.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_7.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_8.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_9.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_10.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_11.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_12.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_13.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_14.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_15.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_16.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_17.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_18.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_19.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_20.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_21.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_22.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-2208128427/minimap/loot_pump.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[04:21:01]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[04:21:01]: Loading 17 new character(s)	
+[04:21:01]: Total 17 character(s) loaded	
+[04:21:04]: Loading Nav Grid	
+[04:21:04]: World generated on build 436739 with save version: 5.063, using seed: 1603542103	
+[04:21:04]: setting 	summerlength	15	
+[04:21:04]: setting 	iscavefullmoon	false	
+[04:21:04]: setting 	isnightmaredawn	false	
+[04:21:04]: setting 	elapseddaysinseason	9	
+[04:21:04]: setting 	isfullmoon	false	
+[04:21:04]: setting 	moisture	1138.8520507813	
+[04:21:04]: setting 	cavephase	day	
+[04:21:04]: setting 	iscavewaxingmoon	true	
+[04:21:04]: setting 	isnightmarewild	false	
+[04:21:04]: setting 	nightmaretimeinphase	0.011574117436417	
+[04:21:04]: setting 	precipitationrate	0	
+[04:21:04]: setting 	iswet	true	
+[04:21:04]: setting 	winterlength	15	
+[04:21:04]: setting 	iswinter	true	
+[04:21:04]: setting 	israining	false	
+[04:21:04]: setting 	isnightmarewarn	true	
+[04:21:04]: setting 	isnewmoon	false	
+[04:21:04]: setting 	precipitation	none	
+[04:21:04]: setting 	issummer	false	
+[04:21:04]: setting 	springlength	20	
+[04:21:04]: setting 	moistureceil	2593.9951171875	
+[04:21:04]: setting 	isday	false	
+[04:21:04]: setting 	iscaveday	true	
+[04:21:04]: setting 	wetness	68.71826171875	
+[04:21:04]: setting 	temperature	-14.629942270291	
+[04:21:04]: setting 	isspring	false	
+[04:21:04]: setting 	isnightmarecalm	false	
+[04:21:04]: setting 	time	0.0021112759908041	
+[04:21:04]: setting 	isdusk	false	
+[04:21:04]: setting 	iscavedusk	false	
+[04:21:04]: setting 	isautumn	false	
+[04:21:04]: setting 	issnowing	false	
+[04:21:04]: setting 	iswaxingmoon	true	
+[04:21:04]: setting 	phase	night	
+[04:21:04]: setting 	snowlevel	0	
+[04:21:04]: setting 	issnowcovered	false	
+[04:21:04]: setting 	autumnlength	20	
+[04:21:04]: setting 	pop	0.027590322181983	
+[04:21:04]: setting 	nightmaretime	361.04167056928	
+[04:21:04]: setting 	remainingdaysinseason	6	
+[04:21:04]: setting 	isnight	true	
+[04:21:04]: setting 	nightmarephase	warn	
+[04:21:04]: setting 	cycles	29	
+[04:21:04]: setting 	timeinphase	0.006756083170573	
+[04:21:04]: setting 	iscavenight	false	
+[04:21:04]: setting 	iscavenewmoon	false	
+[04:21:04]: setting 	season	winter	
+[04:21:04]: setting 	cavemoonphase	threequarter	
+[04:21:04]: setting 	moonphase	new	
+[04:21:07]: SWITCHING 	false	
+[04:21:07]: Reconstructing topology	
+[04:21:07]: 	...Sorting points	
+[04:21:07]: 	...Sorting edges	
+[04:21:07]: 	...Connecting nodes	
+[04:21:07]: 	...Validating connections	
+[04:21:07]: 	...Housekeeping	
+[04:21:07]: 	...Done!	
+[04:21:07]: 1 uploads added to server. From server_temp
+[04:21:07]: World 1 is now connected	
+[04:21:07]: Telling Client our new session identifier: 47C57D51E8D753D0
+[04:21:07]: Check for write access: TRUE
+[04:21:07]: Check for read access: TRUE
+[04:21:07]: Available disk space for save files: 10723 MB
+[04:21:07]: ModIndex: Load sequence finished successfully.	
+[04:21:07]: Reset() returning
+[04:21:08]: Validating portal[10] <-> 1[10] (active)	
+[04:21:08]: Validating portal[2] <-> 1[2] (active)	
+[04:21:08]: Validating portal[7] <-> 1[7] (active)	
+[04:21:08]: Validating portal[9] <-> 1[9] (active)	
+[04:21:08]: Validating portal[4] <-> 1[4] (active)	
+[04:21:08]: Validating portal[8] <-> 1[8] (active)	
+[04:21:08]: Validating portal[6] <-> 1[6] (active)	
+[04:21:08]: Validating portal[3] <-> 1[3] (active)	
+[04:21:08]: Validating portal[5] <-> 1[5] (active)	
+[04:21:08]: Validating portal[1] <-> 1[1] (active)	
+[04:25:39]: Registering secondary shard in US lobby
+[04:29:04]: Available disk space for save files: 10726 MB
+[04:29:04]: Serializing world: session/47C57D51E8D753D0/0000000034
+[04:30:06]: [200] Account Communication Success (6)
+[04:30:06]: Received (KU_1_oDY2UT) from TokenPurpose
+[04:30:39]: Registering secondary shard in US lobby
+[04:35:39]: Registering secondary shard in US lobby
+[04:37:04]: Available disk space for save files: 10687 MB
+[04:37:04]: Serializing world: session/47C57D51E8D753D0/0000000035
+[04:37:04]: Truncating to snapshot #35...
+[04:37:04]:  - session/47C57D51E8D753D0/0000000029
+[04:37:04]:    1 file(s) removed
+[04:40:39]: Registering secondary shard in US lobby
+[04:45:04]: Available disk space for save files: 10675 MB
+[04:45:05]: Serializing world: session/47C57D51E8D753D0/0000000036
+[04:45:05]: Truncating to snapshot #36...
+[04:45:05]:  - session/47C57D51E8D753D0/0000000030
+[04:45:05]:    1 file(s) removed
+[04:45:39]: Registering secondary shard in US lobby
+[04:50:39]: Registering secondary shard in US lobby
+[04:53:05]: Available disk space for save files: 10668 MB
+[04:53:05]: Serializing world: session/47C57D51E8D753D0/0000000037
+[04:53:05]: Truncating to snapshot #37...
+[04:53:05]:  - session/47C57D51E8D753D0/0000000031
+[04:53:05]:    1 file(s) removed
+[04:55:39]: Registering secondary shard in US lobby
+[04:56:00]: [Shard] #3 -> session/47C57D51E8D753D0/A7J9OHLJKNSF/0000000038
+[04:56:00]: [Shard] Received migration #3 data for (KU_QSHhEb-F)
+[04:56:10]: [P2P] Session request for '76561198388953253'
+[04:56:13]: [P2P] Create session: 188.35.23.62|1 '76561198388953253'
+[04:56:13]: [P2P] Received from 188.35.23.62|1 '76561198388953253'
+[04:56:13]: [P2P] Sent to 188.35.23.62|1 '76561198388953253'
+[04:56:16]: New incoming connection 188.35.23.62|1 <4289494719458041269>
+[04:56:16]: Client connected from 188.35.23.62|1 <4289494719458041269>
+[04:56:16]: ValidateGameSessionToken pgs-usc^KU_QSHhEb-F^DontStarveTogether^tr5YyFrrWEuT4hhIQlVSsCuUbubgRZD11zAz4spSqGk= for <4289494719458041269>
+[04:56:17]: Client authenticated: (KU_QSHhEb-F) Yow-Yan
+[04:56:17]: [Steam] SendUserConnectAndAuthenticate for '76561198388953253'
+[04:56:17]: [Steam] Authenticated client '76561198388953253'
+[04:56:17]: [Shard] Completed incoming migration #3 for (KU_QSHhEb-F)
+[04:56:45]: Resuming user: session/47C57D51E8D753D0/A7J9OHLJKNSF/0000000038
+[04:56:45]: Could not find anim build FROMNUM
+[04:56:45]: Player will spawn close to portal #8	
+[04:56:45]: Spawning player at: [Load] (653.27, 0.00, 81.19)	
+[04:58:48]: Activating portal[8] to 1	
+[04:58:49]: Serializing user: session/47C57D51E8D753D0/A7J9OHLJKNSF/0000000038
+[04:58:49]: [Shard] Migration request: (KU_QSHhEb-F) to [SHDMASTER](1)
+[04:58:49]: [Shard] #4 <- session/47C57D51E8D753D0/A7J9OHLJKNSF/0000000038
+[04:58:49]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[04:58:49]: [Steam] SendUserDisconnect for '76561198388953253'
+[05:00:06]: [200] Account Communication Success (6)
+[05:00:06]: Received (KU_1_oDY2UT) from TokenPurpose
+[05:00:39]: Registering secondary shard in US lobby
+[05:01:05]: Available disk space for save files: 10664 MB
+[05:01:05]: Serializing world: session/47C57D51E8D753D0/0000000038
+[05:01:05]: Truncating to snapshot #38...
+[05:01:05]:  - session/47C57D51E8D753D0/0000000032
+[05:01:05]:    1 file(s) removed
+[05:05:39]: Registering secondary shard in US lobby
+[05:08:57]: [P2P] Session timed out for '76561198388953253'
+[05:08:57]: [P2P] Remove session: 188.35.23.62|1 '76561198388953253'
+[05:09:05]: Available disk space for save files: 10667 MB
+[05:09:05]: Serializing world: session/47C57D51E8D753D0/0000000039
+[05:09:05]: Truncating to snapshot #39...
+[05:09:05]:  - session/47C57D51E8D753D0/0000000033
+[05:09:05]:    1 file(s) removed
+[05:10:39]: Registering secondary shard in US lobby
+[05:12:34]: [Shard] #5 -> session/47C57D51E8D753D0/A7J9OHLJKNSF/0000000040
+[05:12:34]: [Shard] Received migration #5 data for (KU_QSHhEb-F)
+[05:12:47]: [P2P] Create session: 188.35.23.63|1 '76561198388953253'
+[05:12:47]: [P2P] Received from 188.35.23.63|1 '76561198388953253'
+[05:12:47]: [P2P] Sent to 188.35.23.63|1 '76561198388953253'
+[05:12:49]: New incoming connection 188.35.23.63|1 <5659741419115830293>
+[05:12:49]: Client connected from 188.35.23.63|1 <5659741419115830293>
+[05:12:49]: ValidateGameSessionToken pgs-usc^KU_QSHhEb-F^DontStarveTogether^PATki0vV+MCA78f1Al8BleAJtxyw0u8GnIZpDKKpVcA= for <5659741419115830293>
+[05:12:51]: Client authenticated: (KU_QSHhEb-F) Yow-Yan
+[05:12:51]: [Steam] SendUserConnectAndAuthenticate for '76561198388953253'
+[05:12:51]: [Steam] Authenticated client '76561198388953253'
+[05:12:51]: [Shard] Completed incoming migration #5 for (KU_QSHhEb-F)
+[05:13:24]: Resuming user: session/47C57D51E8D753D0/A7J9OHLJKNSF/0000000040
+[05:13:24]: Could not find anim build FROMNUM
+[05:13:24]: Player will spawn close to portal #6	
+[05:13:24]: Spawning player at: [Load] (373.01, 0.00, -168.49)	
+[05:14:39]: Activating portal[6] to 1	
+[05:14:40]: Serializing user: session/47C57D51E8D753D0/A7J9OHLJKNSF/0000000040
+[05:14:40]: [Shard] Migration request: (KU_QSHhEb-F) to [SHDMASTER](1)
+[05:14:40]: [Shard] #6 <- session/47C57D51E8D753D0/A7J9OHLJKNSF/0000000040
+[05:14:40]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[05:14:40]: [Steam] SendUserDisconnect for '76561198388953253'
+[05:15:39]: Registering secondary shard in US lobby
+[05:17:05]: Available disk space for save files: 11682 MB
+[05:17:06]: Serializing world: session/47C57D51E8D753D0/0000000040
+[05:17:06]: Truncating to snapshot #40...
+[05:17:06]:  - session/47C57D51E8D753D0/0000000034
+[05:17:06]:    1 file(s) removed
+[05:20:39]: Registering secondary shard in US lobby
+[05:24:48]: [P2P] Session timed out for '76561198388953253'
+[05:24:48]: [P2P] Remove session: 188.35.23.63|1 '76561198388953253'
+[05:25:06]: Available disk space for save files: 11672 MB
+[05:25:06]: Serializing world: session/47C57D51E8D753D0/0000000041
+[05:25:06]: Truncating to snapshot #41...
+[05:25:06]:  - session/47C57D51E8D753D0/0000000035
+[05:25:06]:    1 file(s) removed
+[05:25:39]: Registering secondary shard in US lobby
+[05:30:06]: [200] Account Communication Success (6)
+[05:30:06]: Received (KU_1_oDY2UT) from TokenPurpose
+[05:30:39]: Registering secondary shard in US lobby
+[05:33:06]: Available disk space for save files: 11665 MB
+[05:33:06]: Serializing world: session/47C57D51E8D753D0/0000000042
+[05:33:06]: Truncating to snapshot #42...
+[05:33:06]:  - session/47C57D51E8D753D0/0000000036
+[05:33:06]:    1 file(s) removed
+[05:35:39]: Registering secondary shard in US lobby
+[05:40:14]: Sim paused
+[05:40:39]: Registering secondary shard in US lobby
+[05:42:37]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[05:42:40]: Available disk space for save files: 11683 MB
+[05:42:41]: Serializing world: session/47C57D51E8D753D0/0000000043
+[05:42:41]: Truncating to snapshot #43...
+[05:42:41]:  - session/47C57D51E8D753D0/0000000037
+[05:42:41]:    1 file(s) removed
+[05:42:41]: [Shard] Stopping shard mode
+[05:42:41]: Collecting garbage...
+[05:42:41]: lua_gc took 0.09 seconds
+[05:42:41]: ~ShardLuaProxy()
+[05:42:41]: ~cEventLeaderboardProxy()
+[05:42:41]: ~ItemServerLuaProxy()
+[05:42:41]: ~InventoryLuaProxy()
+[05:42:41]: ~NetworkLuaProxy()
+[05:42:41]: ~SimLuaProxy()
+[05:42:41]: lua_close took 0.18 seconds
+[05:42:41]: Could not unload undefined prefab (brokenwall_stone_2)
+[05:42:41]: Could not unload undefined prefab (brokenwall_ruins_2)
+[05:42:41]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[05:42:41]: CurlRequestManager::ClientThread::Main() complete
+[05:42:41]: HttpClient2 discarded 0 callbacks.
+[05:42:41]: Shutting down
