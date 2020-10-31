@@ -1,47 +1,17 @@
-[00:02:51]: [Join Announcement] 我愛糖豆人by諄
-[00:03:15]: [Leave Announcement] 我愛糖豆人by諄
-[00:03:27]: [Join Announcement] kevin960917
-[00:04:34]: [Join Announcement] Yow-Yan
-[00:43:17]: [Leave Announcement] kevin960917
-[00:43:38]: [Vote Announcement] rollback passed
-[00:44:21]: [Vote Announcement] rollback passed
-[00:44:56]: [Death Announcement] Yow-Yan 死于： 猎犬。他变成了可怕的鬼魂！
-[01:07:28]: [Skin Announcement] Yow-Yan hand_shortgloves_black_scribble
-[01:22:13]: [Join Announcement] kevin960917
-[01:30:10]: [Join Announcement] Mayzchen
-[01:59:54]: [Join Announcement] 吸巴怒罵
-[02:00:37]: [Leave Announcement] kevin960917
-[02:00:46]: [Death Announcement] 吸巴怒罵 死于： 猎犬。他变成了可怕的鬼魂！
-[02:01:06]: [Resurrect Announcement] 吸巴怒罵 复活自： 恶作剧.
-[02:01:50]: [Death Announcement] 吸巴怒罵 死于： 红色猎犬。他变成了可怕的鬼魂！
-[02:01:53]: [Resurrect Announcement] 吸巴怒罵 复活自： 恶作剧.
-[02:02:13]: [Death Announcement] 吸巴怒罵 死于： 龙蝇。他变成了可怕的鬼魂！
-[02:02:17]: [Resurrect Announcement] 吸巴怒罵 复活自： 恶作剧.
-[02:02:21]: [Death Announcement] 吸巴怒罵 死于： 龙蝇。他变成了可怕的鬼魂！
-[02:02:23]: [Resurrect Announcement] 吸巴怒罵 复活自： 恶作剧.
-[02:03:10]: [Leave Announcement] 吸巴怒罵
-[02:09:36]: [Join Announcement] 吸巴怒罵
-[02:09:59]: [Death Announcement] 吸巴怒罵 死于： 中暑。他变成了可怕的鬼魂！
-[02:10:07]: [Resurrect Announcement] 吸巴怒罵 复活自： 恶作剧.
-[02:12:08]: [Death Announcement] 吸巴怒罵 死于： 中暑。他变成了可怕的鬼魂！
-[02:12:10]: [Resurrect Announcement] 吸巴怒罵 复活自： 恶作剧.
-[02:23:55]: [Leave Announcement] 吸巴怒罵
-[02:25:44]: [Skin Announcement] Yow-Yan legs_swing_pants_tan_khaki
-[02:39:13]: [Leave Announcement] Mayzchen
-[02:49:26]: [Death Announcement] Yow-Yan 死于： 红色猎犬。他变成了可怕的鬼魂！
-[02:50:00]: [Resurrect Announcement] Yow-Yan 复活自： 恶作剧.
-[02:50:08]: [Death Announcement] Yow-Yan 死于： 猎犬。他变成了可怕的鬼魂！
-[02:51:20]: [Resurrect Announcement] Yow-Yan 复活自： 恶作剧.
-[02:51:29]: [Death Announcement] Yow-Yan 死于： 猎犬。他变成了可怕的鬼魂！
-[02:51:48]: [Resurrect Announcement] Yow-Yan 复活自： 恶作剧.
-[02:51:57]: [Death Announcement] Yow-Yan 死于： 红色猎犬。他变成了可怕的鬼魂！
-[02:52:28]: [Resurrect Announcement] Yow-Yan 复活自： 恶作剧.
-[03:10:01]: [Join Announcement] kevin960917
-[03:10:42]: [Leave Announcement] kevin960917
-[03:17:30]: [Skin Announcement] Yow-Yan feet_wes_magma
-[03:27:15]: [Death Announcement] Yow-Yan 死于： 红色猎犬。他变成了可怕的鬼魂！
-[03:27:16]: [Vote Announcement] rollback passed
-[03:35:20]: [Vote Announcement] rollback passed
-[03:35:21]: [Death Announcement] Yow-Yan 死于： 猎犬。他变成了可怕的鬼魂！
-[04:36:58]: [Skin Announcement] Yow-Yan feet_buckle_shoe_pink_mulberry
-[04:39:10]: [Leave Announcement] Yow-Yan
+[00:11:05]: [Join Announcement] Yow-Yan
+[00:35:02]: [Death Announcement] Yow-Yan 死于： 熊獾。他变成了可怕的鬼魂！
+[00:35:09]: [Vote Announcement] rollback passed
+[01:08:43]: [Skin Announcement] Yow-Yan feet_captoe_shoe_white_ivory
+[02:10:32]: [Vote Announcement] rollback passed
+[02:28:06]: [Death Announcement] Yow-Yan 死于： 树精守卫。他变成了可怕的鬼魂！
+[02:28:11]: [Vote Announcement] rollback passed
+[02:29:56]: [Vote Announcement] rollback passed
+[02:29:59]: [Death Announcement] Yow-Yan 死于： 蜘蛛战士。他变成了可怕的鬼魂！
+[02:38:48]: [Skin Announcement] Yow-Yan body_buttons_blue_sky
+[03:29:12]: [Vote Announcement] rollback passed
+[03:55:14]: [Skin Announcement] Yow-Yan legs_swing_pants_navy_midnight
+[04:08:57]: [Death Announcement] Yow-Yan 死于： 蜘蛛。他变成了可怕的鬼魂！
+[04:09:03]: [Vote Announcement] rollback passed
+[04:14:07]: [Vote Announcement] rollback passed
+[04:22:36]: [Vote Announcement] rollback passed
+[04:32:42]: [Leave Announcement] Yow-Yan
