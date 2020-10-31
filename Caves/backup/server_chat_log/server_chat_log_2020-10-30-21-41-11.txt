@@ -1,0 +1,26 @@
+[00:19:24]: [Join Announcement] Yow-Yan
+[00:19:38]: [Join Announcement] Mayzchen
+[00:19:41]: [Join Announcement] 我愛糖豆人by諄
+[00:20:57]: [Join Announcement] kevin960917
+[00:36:12]: [Death Announcement] Mayzchen 死于： 恐怖尖喙。他变成了可怕的鬼魂！
+[00:36:22]: [Resurrect Announcement] Mayzchen 复活自： 恶作剧.
+[00:51:00]: [Leave Announcement] 我愛糖豆人by諄
+[00:52:33]: [Join Announcement] 我愛糖豆人by諄
+[00:58:39]: [Death Announcement] 我愛糖豆人by諄 死于： 黑暗。她变成了可怕的鬼魂！
+[00:59:15]: [Resurrect Announcement] 我愛糖豆人by諄 复活自： 恶作剧.
+[01:06:06]: [Death Announcement] 我愛糖豆人by諄 死于： 冻伤。她变成了可怕的鬼魂！
+[01:06:13]: [Leave Announcement] 我愛糖豆人by諄
+[01:06:36]: [Skin Announcement] Mayzchen legs_skirt_basic_blue_peacock
+[01:06:44]: [Join Announcement] 我愛糖豆人by諄
+[01:06:57]: [Resurrect Announcement] 我愛糖豆人by諄 复活自： 恶作剧.
+[01:07:24]: [Skin Announcement] 我愛糖豆人by諄 legs_woodie_magma
+[01:08:10]: [Death Announcement] kevin960917 死于： 爬行恐惧。他变成了可怕的鬼魂！
+[01:09:04]: [Resurrect Announcement] kevin960917 复活自： 恶作剧.
+[01:09:45]: [Leave Announcement] Mayzchen
+[01:10:49]: [Skin Announcement] Yow-Yan legs_pinstripe_pants_red_garnet
+[01:11:12]: [Death Announcement] 我愛糖豆人by諄 死于： 触手。她变成了可怕的鬼魂！
+[01:11:24]: [Resurrect Announcement] 我愛糖豆人by諄 复活自： 恶作剧.
+[01:11:59]: [Leave Announcement] 我愛糖豆人by諄
+[01:17:01]: [Skin Announcement] kevin960917 body_flannel_grey_silver
+[01:17:54]: [Say] (KU_Wwg8f3oG) kevin960917: c_super god mod
+[01:17:56]: [Join Announcement] 我愛糖豆人by諄
